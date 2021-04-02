@@ -1,0 +1,130 @@
+https://web.archive.org/web/20180226135118/https://www.dotslashlinux.com/
+for systemd https://raw.githubusercontent.com/systemd/systemd/master/README
+
+BUILD KERNEL/UPDATE GRUB or LILO:
+make clean
+<make localyesconfig> only if necessary!!
+make clean && make -j4 && make modules_install && make install 
+
+nano /etc/lilo.conf
+grub-mkconfig -o /boot/grub/grub.cfg
+
+upgrading:
+emerge --sync && emerge -avuDN --with-bdeps=y @world && etc-update && emerge -av --depclean && revdep-rebuild && eclean -d distfiles
+
+Clock skew detected.  Your build may be incomplete.
+    (as root)
+    $ cd /
+    $ touch currtime
+    $ find . -cnewer /currtime -exec touch {} \;
+
+:problems with make:
+cp /usr/src/linux/.config /root/kernel-config
+cd /usr/src/linux
+make clean
+mv /root/kernel-config .config
+make oldconfig
+
+sudo lspci -kk > ~/kernelConfig/lspcikk.txt
+sudo lsusb > ~/kernelConfig/lsusb.txt
+sudo lshw -short > ~/kernelConfig/lshwshort.txt
+sudo cat /proc/cpuinfo > ~/kernelConfig/cpuinfo.txt
+sudo dmesg > ~/kernelConfig/dmesg.txt
+sudo lspci -nnkkvvv > ~/kernelConfig/lspcinnkkvvv.txt
+sudo lsusb -v > ~/kernelConfig/lsusbv.txt
+sudo lshw > ~/kernelConfig/lshw.txt
+
+lsmod > ~/kernelConfig/lsmod.txt
+lscpu > ~/kernelConfig/lscpu.txt
+cpuid2cpuflags > ~/kernelConfig/cpuid2cpuflags.txt
+zcat /proc/config.gz > ~/kernelConfig/SysRescueCdKernel.config
+dmidecode > ~/kernelConfig/dmidecode.txt
+sensors > ~/kernelConfig/sensors.txt
+tree /proc > ~/kernelConfig/treeproc.txt
+tree /sys > ~/kernelConfig/treesys.txt
+tree /dev > ~/kernelConfig/treedev.txt
+
+#!/bin/sh
+#
+# Find all modules and drivers for a given class device.
+#
+
+if [ $# != "1" ] ; then
+	echo
+	echo "Script to display the drivers and modules for a specified sysfs class device"
+	echo "usage: $0 <CLASS_NAME>"
+	echo
+	echo "example usage:"
+	echo "      $0 sda"
+	echo "Will show all drivers and modules for the sda block device."
+	echo
+	exit 1
+fi
+
+DEV=$1
+
+if test -e "$1"; then
+	DEVPATH=$1
+else
+	# find sysfs device directory for device
+	DEVPATH=$(find /sys/class -name "$1" | head -1)
+	test -z "$DEVPATH" && DEVPATH=$(find /sys/block -name "$1" | head -1)
+	test -z "$DEVPATH" && DEVPATH=$(find /sys/bus -name "$1" | head -1)
+	if ! test -e "$DEVPATH"; then
+		echo "no device found"
+		exit 1
+	fi
+fi
+
+echo "looking at sysfs device: $DEVPATH"
+
+if test -L "$DEVPATH"; then
+	# resolve class device link to device directory
+	DEVPATH=$(readlink -f $DEVPATH)
+	echo "resolve link to: $DEVPATH"
+fi
+
+if test -d "$DEVPATH"; then
+	# resolve old-style "device" link to the parent device
+	PARENT="$DEVPATH";
+	while test "$PARENT" != "/"; do
+		if test -L "$PARENT/device"; then
+			DEVPATH=$(readlink -f $PARENT/device)
+			echo "follow 'device' link to parent: $DEVPATH"
+			break
+		fi
+		PARENT=$(dirname $PARENT)
+	done
+fi
+
+while test "$DEVPATH" != "/"; do
+	DRIVERPATH=
+	DRIVER=
+	MODULEPATH=
+	MODULE=
+	if test -e $DEVPATH/driver; then
+		DRIVERPATH=$(readlink -f $DEVPATH/driver)
+		DRIVER=$(basename $DRIVERPATH)
+		echo -n "found driver: $DRIVER"
+		if test -e $DRIVERPATH/module; then
+			MODULEPATH=$(readlink -f $DRIVERPATH/module)
+			MODULE=$(basename $MODULEPATH)
+			echo -n " from module: $MODULE"
+		fi
+		echo
+	fi
+
+	DEVPATH=$(dirname $DEVPATH)
+done
+
+
+
+
+#!/bin/bash
+#
+# find_all_modules.sh
+#
+for i in `find /sys/ -name modalias -exec cat {} \;`; do
+    /sbin/modprobe --config /dev/null --show-depends $i ;
+done | rev | cut -f 1 -d '/' | rev | sort -u
+

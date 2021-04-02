@@ -1,0 +1,86 @@
+WIZARD PAGE: page_010.so
+WIZARD PAGE: page_011.so
+WIZARD PAGE: page_020.so
+WIZARD PAGE: page_030.so
+WIZARD PAGE: page_040.so
+WIZARD PAGE: page_050.so
+WIZARD PAGE: page_060.so
+WIZARD PAGE: page_065.so
+WIZARD PAGE: page_070.so
+WIZARD PAGE: page_080.so
+WIZARD PAGE: page_090.so
+WIZARD PAGE: page_100.so
+WIZARD PAGE: page_110.so
+WIZARD PAGE: page_120.so
+WIZARD PAGE: page_130.so
+WIZARD PAGE: page_150.so
+WIZARD PAGE: page_160.so
+WIZARD PAGE: page_170.so
+WIZARD PAGE: page_180.so
+WIZARD PAGE: page_200.so
+ERR<445>: src/modules/mixer/lib/backends/pulseaudio/pulse.c:835 _pulse_connect() Could not connect to pulse
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x7f88ba01ca8e 0x7f88b9ff6000
+/usr/lib/libeina.so.1	 0x7f88ba01d801 0x7f88b9ff6000
+/usr/lib/libeina.so.1	 0x7f88ba01ec23 0x7f88b9ff6000
+/usr/lib/enlightenment/modules/mixer/linux-gnu-x86_64-0.22/module.so	 0x7f8895d7ae01 0x7f8895d6a000
+/usr/lib/enlightenment/modules/mixer/linux-gnu-x86_64-0.22/module.so	 0x7f8895d7c40f 0x7f8895d6a000
+/usr/lib/enlightenment/modules/mixer/linux-gnu-x86_64-0.22/module.so	 0x7f8895d72e54 0x7f8895d6a000
+/usr/bin/enlightenment	 0x55a52f60c003 0x55a52f506000
+/usr/bin/enlightenment	 0x55a52f60c712 0x55a52f506000
+/usr/lib/libecore.so.1	 0x7f88ba28d79f 0x7f88ba276000
+/usr/lib/libeo.so.1	 0x7f88b665990f 0x7f88b6646000
+/usr/lib/libeo.so.1	 0x7f88b6654ed1 0x7f88b6646000
+/usr/lib/libecore.so.1	 0x7f88ba290d4a 0x7f88ba276000
+/usr/lib/libecore.so.1	 0x7f88ba2913e7 0x7f88ba276000
+/usr/bin/enlightenment	 0x55a52f547627 0x55a52f506000
+/usr/lib/libc.so.6	 0x7f88b96f5f4a 0x7f88b96d5000
+/usr/bin/enlightenment	 0x55a52f54863a 0x55a52f506000
+EOF
+
+ERR<445>: src/modules/mixer/lib/backends/pulseaudio/pulse.c:835 _pulse_connect() Could not connect to pulse
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x7f88ba01ca8e 0x7f88b9ff6000
+/usr/lib/libeina.so.1	 0x7f88ba01d801 0x7f88b9ff6000
+/usr/lib/libeina.so.1	 0x7f88ba01ec23 0x7f88b9ff6000
+/usr/lib/enlightenment/modules/mixer/linux-gnu-x86_64-0.22/module.so	 0x7f8895d7ae01 0x7f8895d6a000
+/usr/lib/libecore.so.1	 0x7f88ba2a5716 0x7f88ba276000
+/usr/lib/libeo.so.1	 0x7f88b6659980 0x7f88b6646000
+/usr/lib/libeo.so.1	 0x7f88b6654ed1 0x7f88b6646000
+/usr/lib/libecore.so.1	 0x7f88ba2a67b7 0x7f88ba276000
+/usr/lib/libecore.so.1	 0x7f88ba2a690b 0x7f88ba276000
+/usr/lib/libecore.so.1	 0x7f88ba290d21 0x7f88ba276000
+/usr/lib/libecore.so.1	 0x7f88ba2913e7 0x7f88ba276000
+/usr/bin/enlightenment	 0x55a52f547627 0x55a52f506000
+/usr/lib/libc.so.6	 0x7f88b96f5f4a 0x7f88b96d5000
+/usr/bin/enlightenment	 0x55a52f54863a 0x55a52f506000
+EOF
+
+ERR<572>:eo lib/eo/eo_base_class.c:1574 efl_event_callback_legacy_call() Eo ID 0x40000000ff20 is not a valid object. Current thread: 0x7fdf8fa2b700. This ID has probably been deleted or this was never a valid object ID. (domain=0, current_domain=2, local_domain=2, available_domains=[  1 2  ], generation=320, id=3f, ref=1)
+## Copy & Paste the below (until EOF) into a terminal, then hit Enter
+
+eina_btlog << EOF
+/usr/lib/libeina.so.1	 0x7fdfa04a5a8e 0x7fdfa047f000
+/usr/lib/libeina.so.1	 0x7fdfa04a6801 0x7fdfa047f000
+/usr/lib/libeina.so.1	 0x7fdfa04a7c23 0x7fdfa047f000
+/usr/lib/libeo.so.1	 0x7fdf96f6c16b 0x7fdf96f5f000
+/usr/lib/libeo.so.1	 0x7fdf96f68e9c 0x7fdf96f5f000
+/usr/lib/libeo.so.1	 0x7fdf96f6e00a 0x7fdf96f5f000
+/usr/lib/libelementary.so.1	 0x7fdfa096df9b 0x7fdfa06ff000
+/usr/lib/libecore_x.so.1	 0x7fdf9cd9c488 0x7fdf9cd73000
+/usr/lib/libX11.so.6	 0x7fdf9c44379e 0x7fdf9c3ff000
+/usr/lib/libX11.so.6	 0x7fdf9c4417e3 0x7fdf9c3ff000
+/usr/lib/libX11.so.6	 0x7fdf9c43cfdd 0x7fdf9c3ff000
+/usr/lib/evas/modules/engines/software_x11/v-1.20/module.so	 0x7fdf8e3eeeb9 0x7fdf8e3e8000
+/usr/lib/libevas.so.1	 0x7fdf9fd671f4 0x7fdf9fbbf000
+/usr/lib/libevas.so.1	 0x7fdf9fc94e7b 0x7fdf9fbbf000
+/usr/lib/libevas.so.1	 0x7fdf9fd402d3 0x7fdf9fbbf000
+/usr/lib/libeina.so.1	 0x7fdfa04bf06f 0x7fdfa047f000
+/usr/lib/libpthread.so.0	 0x7fdfa026808c 0x7fdfa0261000
+/usr/lib/libc.so.6	 0x7fdf9db1ce7f 0x7fdf9da27000
+EOF
+

@@ -1,0 +1,2741 @@
+lspcikk.txt
+00:00.0 Host bridge: Intel Corporation Mobile 4 Series Chipset Memory Controller Hub (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Memory Controller Hub
+00:02.0 VGA compatible controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Integrated Graphics Controller
+        Kernel driver in use: i915
+00:02.1 Display controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Integrated Graphics Controller
+00:1a.0 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #4 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller
+        Kernel driver in use: uhci_hcd
+00:1a.1 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #5 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller
+        Kernel driver in use: uhci_hcd
+00:1a.7 USB controller: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #2 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB2 EHCI Controller
+        Kernel driver in use: ehci-pci
+00:1b.0 Audio device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) HD Audio Controller
+        Kernel driver in use: snd_hda_intel
+00:1c.0 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 1 (rev 03)
+        Kernel driver in use: pcieport
+00:1c.1 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 2 (rev 03)
+        Kernel driver in use: pcieport
+00:1c.4 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 5 (rev 03)
+        Kernel driver in use: pcieport
+00:1d.0 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #1 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller
+        Kernel driver in use: uhci_hcd
+00:1d.1 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #2 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller
+        Kernel driver in use: uhci_hcd
+00:1d.2 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #3 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller
+        Kernel driver in use: uhci_hcd
+00:1d.3 USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #6 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller
+        Kernel driver in use: uhci_hcd
+00:1d.7 USB controller: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #1 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB2 EHCI Controller
+        Kernel driver in use: ehci-pci
+00:1e.0 PCI bridge: Intel Corporation 82801 Mobile PCI Bridge (rev 93)
+00:1f.0 ISA bridge: Intel Corporation ICH9M LPC Interface Controller (rev 03)
+        Subsystem: Toshiba Corporation ICH9M LPC Interface Controller
+00:1f.2 SATA controller: Intel Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode] (rev 03)
+        Subsystem: Toshiba Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]
+        Kernel driver in use: ahci
+00:1f.3 SMBus: Intel Corporation 82801I (ICH9 Family) SMBus Controller (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) SMBus Controller
+        Kernel driver in use: i801_smbus
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL810xE PCI Express Fast Ethernet controller (rev 02)
+        Subsystem: Toshiba Corporation RTL810xE PCI Express Fast Ethernet controller
+        Kernel driver in use: r8169
+03:00.0 Network controller: Realtek Semiconductor Co., Ltd. RTL8191SEvB Wireless LAN Controller (rev 10)
+        Subsystem: Realtek Semiconductor Co., Ltd. RTL8191SEvB Wireless LAN Controller
+
+lsusb.txt
+Bus 001 Device 002: ID 064e:d104 Suyin Corp.
+Bus 007 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 006 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 008 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
+lshwshort.txt
+H/W path         Device      Class       Description
+====================================================
+                             system      Satellite L505 (Montevina_Fab)
+/0                           bus         Portable PC
+/0/0                         memory      1MiB BIOS
+/0/13                        memory      4GiB System Memory
+/0/13/0                      memory      2GiB SODIMM DDR3 Synchronous 800 MHz (1.2 ns)
+/0/13/1                      memory      2GiB SODIMM DDR3 Synchronous 800 MHz (1.2 ns)
+/0/1e                        processor   Intel(R) Core(TM)2 Duo CPU     T6500  @ 2.10GHz
+/0/1e/1f                     memory      2MiB L2 cache
+/0/1e/21                     memory      32KiB L1 cache
+/0/20                        memory      32KiB L1 cache
+/0/100                       bridge      Mobile 4 Series Chipset Memory Controller Hub
+/0/100/2                     display     Mobile 4 Series Chipset Integrated Graphics Controller
+/0/100/2.1                   display     Mobile 4 Series Chipset Integrated Graphics Controller
+/0/100/1a                    bus         82801I (ICH9 Family) USB UHCI Controller #4
+/0/100/1a/1      usb3        bus         UHCI Host Controller
+/0/100/1a.1                  bus         82801I (ICH9 Family) USB UHCI Controller #5
+/0/100/1a.1/1    usb4        bus         UHCI Host Controller
+/0/100/1a.7                  bus         82801I (ICH9 Family) USB2 EHCI Controller #2
+/0/100/1a.7/1    usb1        bus         EHCI Host Controller
+/0/100/1a.7/1/2              multimedia  USB 2.0 Camera
+/0/100/1b                    multimedia  82801I (ICH9 Family) HD Audio Controller
+/0/100/1c                    bridge      82801I (ICH9 Family) PCI Express Port 1
+/0/100/1c/0      enp2s0      network     RTL810xE PCI Express Fast Ethernet controller
+/0/100/1c.1                  bridge      82801I (ICH9 Family) PCI Express Port 2
+/0/100/1c.1/0                network     RTL8191SEvB Wireless LAN Controller
+/0/100/1c.4                  bridge      82801I (ICH9 Family) PCI Express Port 5
+/0/100/1d                    bus         82801I (ICH9 Family) USB UHCI Controller #1
+/0/100/1d/1      usb5        bus         UHCI Host Controller
+/0/100/1d.1                  bus         82801I (ICH9 Family) USB UHCI Controller #2
+/0/100/1d.1/1    usb6        bus         UHCI Host Controller
+/0/100/1d.2                  bus         82801I (ICH9 Family) USB UHCI Controller #3
+/0/100/1d.2/1    usb7        bus         UHCI Host Controller
+/0/100/1d.3                  bus         82801I (ICH9 Family) USB UHCI Controller #6
+/0/100/1d.3/1    usb8        bus         UHCI Host Controller
+/0/100/1d.7                  bus         82801I (ICH9 Family) USB2 EHCI Controller #1
+/0/100/1d.7/1    usb2        bus         EHCI Host Controller
+/0/100/1e                    bridge      82801 Mobile PCI Bridge
+/0/100/1f                    bridge      ICH9M LPC Interface Controller
+/0/100/1f.2                  storage     82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]
+/0/100/1f.3                  bus         82801I (ICH9 Family) SMBus Controller
+/0/1             scsi1       storage
+/0/1/0.0.0       /dev/sda    disk        320GB TOSHIBA MK3263GS
+/0/1/0.0.0/1     /dev/sda1   volume      2047KiB BIOS Boot partition
+/0/1/0.0.0/2     /dev/sda2   volume      19GiB Linux swap volume
+/0/1/0.0.0/3     /dev/sda3   volume      278GiB EXT4 volume
+/0/2             scsi5       storage
+/0/2/0.0.0       /dev/cdrom  disk        CDDVDW TS-L633C
+/0/2/0.0.0/0     /dev/cdrom  disk
+/1                           power       OEM_Define4
+
+cpuinfo.txt
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 23
+model name      : Intel(R) Core(TM)2 Duo CPU     T6500  @ 2.10GHz
+stepping        : 10
+microcode       : 0xa07
+cpu MHz         : 2094.639
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 2
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm pti dtherm
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips        : 4189.28
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 23
+model name      : Intel(R) Core(TM)2 Duo CPU     T6500  @ 2.10GHz
+stepping        : 10
+microcode       : 0xa07
+cpu MHz         : 2094.640
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 1
+cpu cores       : 2
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm pti dtherm
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips        : 4189.28
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical, 48 bits virtual
+power management:
+
+dmesg.txt
+[    0.000000] Linux version 4.19.97-gentoo (root@livecd) (gcc version 9.2.0 (Gentoo 9.2.0-r2 p3)) #1 SMP Thu Mar 26 12:38:39 EDT 2020
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.19.97-gentoo root=/dev/sda3 ro
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Enabled xstate features 0x3, context size is 576 bytes, using 'standard' format.
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dfff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009e000-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000b7b6bfff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000b7b6c000-0x00000000b7bbefff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000b7bbf000-0x00000000b7c85fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000b7c86000-0x00000000b7cbefff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000b7cbf000-0x00000000b7ceafff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000b7ceb000-0x00000000b7cfefff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000b7cff000-0x00000000b7cfffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000b7d00000-0x00000000bfffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed10000-0x00000000fed13fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed18000-0x00000000fed19fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fff00000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000013fffffff] usable
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.4 present.
+[    0.000000] DMI: TOSHIBA Satellite L505/Portable PC, BIOS 1.50 12/15/2009
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2094.640 MHz processor
+[    0.009803] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.009805] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.009813] last_pfn = 0x140000 max_arch_pfn = 0x400000000
+[    0.009819] MTRR default type: uncachable
+[    0.009819] MTRR fixed ranges enabled:
+[    0.009821]   00000-9FFFF write-back
+[    0.009822]   A0000-CFFFF uncachable
+[    0.009822]   D0000-DFFFF write-protect
+[    0.009823]   E0000-FFFFF uncachable
+[    0.009824] MTRR variable ranges enabled:
+[    0.009826]   0 base 0FFFE0000 mask FFFFE0000 write-protect
+[    0.009827]   1 base 000000000 mask F80000000 write-back
+[    0.009828]   2 base 080000000 mask FC0000000 write-back
+[    0.009829]   3 base 0B8000000 mask FF8000000 uncachable
+[    0.009830]   4 base 0B7E00000 mask FFFE00000 uncachable
+[    0.009831]   5 base 0B7D00000 mask FFFF00000 uncachable
+[    0.009832]   6 base 100000000 mask FC0000000 write-back
+[    0.009833]   7 disabled
+[    0.010809] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT
+[    0.011156] last_pfn = 0xb7d00 max_arch_pfn = 0x400000000
+[    0.021703] Scanning 1 areas for low memory corruption
+[    0.021710] BRK [0x1f201000, 0x1f201fff] PGTABLE
+[    0.021712] BRK [0x1f202000, 0x1f202fff] PGTABLE
+[    0.021714] BRK [0x1f203000, 0x1f203fff] PGTABLE
+[    0.021750] BRK [0x1f204000, 0x1f204fff] PGTABLE
+[    0.021753] BRK [0x1f205000, 0x1f205fff] PGTABLE
+[    0.021945] BRK [0x1f206000, 0x1f206fff] PGTABLE
+[    0.022196] ACPI: Early table checksum verification disabled
+[    0.023028] ACPI: RSDP 0x00000000000FE020 000024 (v02 TOSINV)
+[    0.023033] ACPI: XSDT 0x00000000B7CFE120 000064 (v01 TOSINV TOSINV00 00000001      01000013)
+[    0.023040] ACPI: FACP 0x00000000B7CFD000 0000F4 (v04 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023046] ACPI: DSDT 0x00000000B7CEE000 00A611 (v01 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023051] ACPI: FACS 0x00000000B7C93000 000040
+[    0.023054] ACPI: FACS 0x00000000B7C93000 000040
+[    0.023057] ACPI: HPET 0x00000000B7CFC000 000038 (v01 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023061] ACPI: APIC 0x00000000B7CFB000 00006C (v02 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023066] ACPI: MCFG 0x00000000B7CFA000 00003C (v01 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023070] ACPI: ASF! 0x00000000B7CF9000 0000A5 (v32 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023074] ACPI: SLIC 0x00000000B7CED000 000176 (v01 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023078] ACPI: BOOT 0x00000000B7CEC000 000028 (v01 TOSINV TOSINV00 00000001 MSFT 01000013)
+[    0.023082] ACPI: SSDT 0x00000000B7CEB000 000655 (v01 PmRef  CpuPm    00003000 INTL 20051117)
+[    0.023092] ACPI: Local APIC address 0xfee00000
+[    0.023192] No NUMA configuration found
+[    0.023194] Faking a node at [mem 0x0000000000000000-0x000000013fffffff]
+[    0.023198] NODE_DATA(0) allocated [mem 0x13fff9000-0x13fffcfff]
+[    0.023221] Zone ranges:
+[    0.023223]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.023225]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.023227]   Normal   [mem 0x0000000100000000-0x000000013fffffff]
+[    0.023228] Movable zone start for each node
+[    0.023230] Early memory node ranges
+[    0.023231]   node   0: [mem 0x0000000000001000-0x000000000009dfff]
+[    0.023233]   node   0: [mem 0x0000000000100000-0x00000000b7b6bfff]
+[    0.023234]   node   0: [mem 0x00000000b7bbf000-0x00000000b7c85fff]
+[    0.023236]   node   0: [mem 0x00000000b7cbf000-0x00000000b7ceafff]
+[    0.023237]   node   0: [mem 0x00000000b7cff000-0x00000000b7cfffff]
+[    0.023239]   node   0: [mem 0x0000000100000000-0x000000013fffffff]
+[    0.023243] Reserved but unavailable: 99 pages
+[    0.023245] Initmem setup node 0 [mem 0x0000000000001000-0x000000013fffffff]
+[    0.023248] On node 0 totalpages: 1014781
+[    0.023249]   DMA zone: 64 pages used for memmap
+[    0.023250]   DMA zone: 21 pages reserved
+[    0.023251]   DMA zone: 3997 pages, LIFO batch:0
+[    0.023374]   DMA32 zone: 11698 pages used for memmap
+[    0.023375]   DMA32 zone: 748640 pages, LIFO batch:63
+[    0.049832]   Normal zone: 4096 pages used for memmap
+[    0.049834]   Normal zone: 262144 pages, LIFO batch:63
+[    0.058588] Reserving Intel graphics memory at [mem 0xb8000000-0xbfffffff]
+[    0.058844] ACPI: PM-Timer IO Port: 0x408
+[    0.058846] ACPI: Local APIC address 0xfee00000
+[    0.058865] IOAPIC[0]: apic_id 4, version 32, address 0xfec00000, GSI 0-23
+[    0.058869] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.058871] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.058873] ACPI: IRQ0 used by override.
+[    0.058875] ACPI: IRQ9 used by override.
+[    0.058876] Using ACPI (MADT) for SMP configuration information
+[    0.058879] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+[    0.058887] smpboot: Allowing 4 CPUs, 2 hotplug CPUs
+[    0.058916] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.058919] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+[    0.058920] PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+[    0.058922] PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+[    0.058924] PM: Registered nosave memory: [mem 0xb7b6c000-0xb7bbefff]
+[    0.058927] PM: Registered nosave memory: [mem 0xb7c86000-0xb7cbefff]
+[    0.058929] PM: Registered nosave memory: [mem 0xb7ceb000-0xb7cfefff]
+[    0.058932] PM: Registered nosave memory: [mem 0xb7d00000-0xbfffffff]
+[    0.058933] PM: Registered nosave memory: [mem 0xc0000000-0xf7ffffff]
+[    0.058934] PM: Registered nosave memory: [mem 0xf8000000-0xfbffffff]
+[    0.058936] PM: Registered nosave memory: [mem 0xfc000000-0xfebfffff]
+[    0.058937] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[    0.058938] PM: Registered nosave memory: [mem 0xfec01000-0xfed0ffff]
+[    0.058940] PM: Registered nosave memory: [mem 0xfed10000-0xfed13fff]
+[    0.058941] PM: Registered nosave memory: [mem 0xfed14000-0xfed17fff]
+[    0.058943] PM: Registered nosave memory: [mem 0xfed18000-0xfed19fff]
+[    0.058944] PM: Registered nosave memory: [mem 0xfed1a000-0xfed1bfff]
+[    0.058945] PM: Registered nosave memory: [mem 0xfed1c000-0xfed1ffff]
+[    0.058947] PM: Registered nosave memory: [mem 0xfed20000-0xfedfffff]
+[    0.058948] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[    0.058949] PM: Registered nosave memory: [mem 0xfee01000-0xffefffff]
+[    0.058951] PM: Registered nosave memory: [mem 0xfff00000-0xffffffff]
+[    0.058954] [mem 0xc0000000-0xf7ffffff] available for PCI devices
+[    0.058959] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[    0.285245] random: get_random_bytes called from start_kernel+0x88/0x44a with crng_init=0
+[    0.285259] setup_percpu: NR_CPUS:64 nr_cpumask_bits:64 nr_cpu_ids:4 nr_node_ids:1
+[    0.286215] percpu: Embedded 42 pages/cpu s134232 r8192 d29608 u524288
+[    0.286226] pcpu-alloc: s134232 r8192 d29608 u524288 alloc=1*2097152
+[    0.286228] pcpu-alloc: [0] 0 1 2 3
+[    0.286259] Built 1 zonelists, mobility grouping on.  Total pages: 998902
+[    0.286261] Policy zone: Normal
+[    0.286265] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.19.97-gentoo root=/dev/sda3 ro
+[    0.317143] Calgary: detecting Calgary via BIOS EBDA area
+[    0.317151] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[    0.354321] Memory: 3902120K/4059124K available (12300K kernel code, 1303K rwdata, 2948K rodata, 1220K init, 1552K bss, 157004K reserved, 0K cma-reserved)
+[    0.354394] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.354406] Kernel/User page tables isolation: enabled
+[    0.354657] rcu: Hierarchical RCU implementation.
+[    0.354659] rcu:     RCU event tracing is enabled.
+[    0.354661] rcu:     RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.
+[    0.354663] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.355010] NR_IRQS: 4352, nr_irqs: 456, preallocated irqs: 16
+[    0.357044] Console: colour VGA+ 80x25
+[    0.366114] console [tty0] enabled
+[    0.366207] ACPI: Core revision 20180810
+[    0.366284] TOSHIBA Satellite detected - force copy of DSDT to local memory
+[    0.366594] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+[    0.366718] hpet clockevent registered
+[    0.366725] APIC: Switch to symmetric I/O mode setup
+[    0.367234] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.371724] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1e31691decf, max_idle_ns: 440795240007 ns
+[    0.371855] Calibrating delay loop (skipped), value calculated using timer frequency.. 4189.28 BogoMIPS (lpj=2094640)
+[    0.371974] pid_max: default: 32768 minimum: 301
+[    0.372075] Security Framework initialized
+[    0.372155] SELinux:  Initializing.
+[    0.374511] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+[    0.375803] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.375909] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.376029] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.376383] CPU0: Thermal monitoring enabled (TM2)
+[    0.376465] process: using mwait in idle threads
+[    0.376549] Last level iTLB entries: 4KB 128, 2MB 4, 4MB 4
+[    0.376628] Last level dTLB entries: 4KB 256, 2MB 0, 4MB 32, 1GB 0
+[    0.376709] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.376846] Spectre V2 : Mitigation: Full generic retpoline
+[    0.376924] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    0.377039] Speculative Store Bypass: Vulnerable
+[    0.377150] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+[    0.377453] Freeing SMP alternatives memory: 36K
+[    0.480915] smpboot: CPU0: Intel(R) Core(TM)2 Duo CPU     T6500  @ 2.10GHz (family: 0x6, model: 0x17, stepping: 0xa)
+[    0.481208] Performance Events: PEBS fmt0+, Core2 events, Intel PMU driver.
+[    0.481299] ... version:                2
+[    0.481376] ... bit width:              40
+[    0.481452] ... generic registers:      2
+[    0.481530] ... value mask:             000000ffffffffff
+[    0.481609] ... max period:             000000007fffffff
+[    0.481686] ... fixed-purpose events:   3
+[    0.481763] ... event mask:             0000000700000003
+[    0.481841] rcu: Hierarchical SRCU implementation.
+[    0.482044] smp: Bringing up secondary CPUs ...
+[    0.482260] x86: Booting SMP configuration:
+[    0.482338] .... node  #0, CPUs:      #1
+[    0.483880] smp: Brought up 1 node, 2 CPUs
+[    0.484003] smpboot: Max logical packages: 2
+[    0.484079] smpboot: Total of 2 processors activated (8378.56 BogoMIPS)
+[    0.485897] devtmpfs: initialized
+[    0.486137] PM: Registering ACPI NVS region [mem 0xb7c86000-0xb7cbefff] (233472 bytes)
+[    0.486137] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[    0.486170] futex hash table entries: 1024 (order: 4, 65536 bytes)
+[    0.486345] RTC time: 13:27:18, date: 03/26/20
+[    0.486896] NET: Registered protocol family 16
+[    0.487086] audit: initializing netlink subsys (disabled)
+[    0.487208] kworker/u8:0 (22) used greatest stack depth: 14656 bytes left
+[    0.487296] audit: type=2000 audit(1585229238.120:1): state=initialized audit_enabled=0 res=1
+[    0.487950] cpuidle: using governor menu
+[    0.487957] Simple Boot Flag value 0x5 read from CMOS RAM was invalid
+[    0.488038] Simple Boot Flag at 0x44 set to 0x1
+[    0.488135] ACPI: bus type PCI registered
+[    0.488277] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+[    0.488398] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+[    0.488854] PCI: Using configuration type 1 for base access
+[    0.488971] mtrr: your CPUs had inconsistent variable MTRR settings
+[    0.489011] mtrr: probably your BIOS does not setup all CPUs.
+[    0.489088] mtrr: corrected configuration.
+[    0.491800] kworker/u8:2 (189) used greatest stack depth: 14192 bytes left
+[    0.501686] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.501997] ACPI: Added _OSI(Module Device)
+[    0.502062] ACPI: Added _OSI(Processor Device)
+[    0.502138] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.502216] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.502294] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.502370] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.502502] ACPI: Forced DSDT copy: length 0x0A611 copied locally, original unmapped
+[    0.511540] ACPI: 2 ACPI AML tables successfully acquired and loaded
+[    0.513288] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    0.513827] ACPI: Dynamic OEM Table Load:
+[    0.513847] ACPI: SSDT 0xFFFF9FDCFB3FEC00 000229 (v01 PmRef  Cpu0Ist  00003000 INTL 20051117)
+[    0.514346] ACPI: Dynamic OEM Table Load:
+[    0.514427] ACPI: SSDT 0xFFFF9FDCFB3EB000 000537 (v01 PmRef  Cpu0Cst  00003001 INTL 20051117)
+[    0.515214] ACPI: Dynamic OEM Table Load:
+[    0.515296] ACPI: SSDT 0xFFFF9FDCFB3D9A00 0001CF (v01 PmRef  ApIst    00003000 INTL 20051117)
+[    0.515701] ACPI: Dynamic OEM Table Load:
+[    0.515783] ACPI: SSDT 0xFFFF9FDCFB38B9C0 00008D (v01 PmRef  ApCst    00003000 INTL 20051117)
+[    0.516310] ACPI: EC: EC started
+[    0.516387] ACPI: EC: interrupt blocked
+[    0.639309] ACPI: \_SB_.PCI0.LPC_.EC0_: Used as first EC
+[    0.639392] ACPI: \_SB_.PCI0.LPC_.EC0_: GPE=0x16, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    0.639505] ACPI: \_SB_.PCI0.LPC_.EC0_: Used as boot DSDT EC to handle transactions
+[    0.639617] ACPI: Interpreter enabled
+[    0.639730] ACPI: (supports S0 S3 S4 S5)
+[    0.639808] ACPI: Using IOAPIC for interrupt routing
+[    0.639883] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.640250] ACPI: Enabled 8 GPEs in block 00 to 3F
+[    0.648709] ACPI: Power Resource [FN00] (on)
+[    0.650020] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.650107] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+[    0.650225] acpi PNP0A08:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+[    0.650321] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+[    0.650743] PCI host bridge to bus 0000:00
+[    0.650823] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.650844] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    0.650926] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    0.651039] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+[    0.651152] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.651241] pci 0000:00:00.0: [8086:2a40] type 00 class 0x060000
+[    0.651271] DMAR: Disabling IOMMU for graphics on this chipset
+[    0.651350] DMAR: Forcing write-buffer flush capability
+[    0.651535] pci 0000:00:02.0: [8086:2a42] type 00 class 0x030000
+[    0.651549] pci 0000:00:02.0: reg 0x10: [mem 0xd0000000-0xd03fffff 64bit]
+[    0.651557] pci 0000:00:02.0: reg 0x18: [mem 0xc0000000-0xcfffffff 64bit pref]
+[    0.651563] pci 0000:00:02.0: reg 0x20: [io  0x6110-0x6117]
+[    0.651676] pci 0000:00:02.1: [8086:2a43] type 00 class 0x038000
+[    0.651689] pci 0000:00:02.1: reg 0x10: [mem 0xd3500000-0xd35fffff 64bit]
+[    0.651910] pci 0000:00:1a.0: [8086:2937] type 00 class 0x0c0300
+[    0.651989] pci 0000:00:1a.0: reg 0x20: [io  0x60e0-0x60ff]
+[    0.652139] pci 0000:00:1a.1: [8086:2938] type 00 class 0x0c0300
+[    0.652223] pci 0000:00:1a.1: reg 0x20: [io  0x60c0-0x60df]
+[    0.652397] pci 0000:00:1a.7: [8086:293c] type 00 class 0x0c0320
+[    0.652428] pci 0000:00:1a.7: reg 0x10: [mem 0xd6704c00-0xd6704fff]
+[    0.652549] pci 0000:00:1a.7: PME# supported from D0 D3hot D3cold
+[    0.652662] pci 0000:00:1b.0: [8086:293e] type 00 class 0x040300
+[    0.652690] pci 0000:00:1b.0: reg 0x10: [mem 0xd6700000-0xd6703fff 64bit]
+[    0.652791] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+[    0.652898] pci 0000:00:1c.0: [8086:2940] type 01 class 0x060400
+[    0.653004] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[    0.653123] pci 0000:00:1c.1: [8086:2942] type 01 class 0x060400
+[    0.653228] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[    0.653346] pci 0000:00:1c.4: [8086:2948] type 01 class 0x060400
+[    0.653447] pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
+[    0.653568] pci 0000:00:1d.0: [8086:2934] type 00 class 0x0c0300
+[    0.653651] pci 0000:00:1d.0: reg 0x20: [io  0x60a0-0x60bf]
+[    0.653846] pci 0000:00:1d.1: [8086:2935] type 00 class 0x0c0300
+[    0.653907] pci 0000:00:1d.1: reg 0x20: [io  0x6080-0x609f]
+[    0.654077] pci 0000:00:1d.2: [8086:2936] type 00 class 0x0c0300
+[    0.654158] pci 0000:00:1d.2: reg 0x20: [io  0x6060-0x607f]
+[    0.654320] pci 0000:00:1d.3: [8086:2939] type 00 class 0x0c0300
+[    0.654403] pci 0000:00:1d.3: reg 0x20: [io  0x6040-0x605f]
+[    0.654569] pci 0000:00:1d.7: [8086:293a] type 00 class 0x0c0320
+[    0.654601] pci 0000:00:1d.7: reg 0x10: [mem 0xd6704800-0xd6704bff]
+[    0.654721] pci 0000:00:1d.7: PME# supported from D0 D3hot D3cold
+[    0.654842] pci 0000:00:1e.0: [8086:2448] type 01 class 0x060401
+[    0.655003] pci 0000:00:1f.0: [8086:2919] type 00 class 0x060100
+[    0.655239] pci 0000:00:1f.2: [8086:2929] type 00 class 0x010601
+[    0.655264] pci 0000:00:1f.2: reg 0x10: [io  0x6108-0x610f]
+[    0.655274] pci 0000:00:1f.2: reg 0x14: [io  0x611c-0x611f]
+[    0.655283] pci 0000:00:1f.2: reg 0x18: [io  0x6100-0x6107]
+[    0.655293] pci 0000:00:1f.2: reg 0x1c: [io  0x6118-0x611b]
+[    0.655302] pci 0000:00:1f.2: reg 0x20: [io  0x6020-0x603f]
+[    0.655312] pci 0000:00:1f.2: reg 0x24: [mem 0xd6704000-0xd67047ff]
+[    0.655368] pci 0000:00:1f.2: PME# supported from D3hot
+[    0.655471] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500
+[    0.655496] pci 0000:00:1f.3: reg 0x10: [mem 0xd6705000-0xd67050ff 64bit]
+[    0.655522] pci 0000:00:1f.3: reg 0x20: [io  0x6000-0x601f]
+[    0.655733] pci 0000:02:00.0: [10ec:8136] type 00 class 0x020000
+[    0.655831] pci 0000:02:00.0: reg 0x10: [io  0x4000-0x40ff]
+[    0.655942] pci 0000:02:00.0: reg 0x18: [mem 0xd0410000-0xd0410fff 64bit pref]
+[    0.656006] pci 0000:02:00.0: reg 0x20: [mem 0xd0400000-0xd040ffff 64bit pref]
+[    0.656049] pci 0000:02:00.0: reg 0x30: [mem 0xfffe0000-0xffffffff pref]
+[    0.656325] pci 0000:02:00.0: supports D1 D2
+[    0.656327] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    0.656620] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    0.656703] pci 0000:00:1c.0:   bridge window [io  0x4000-0x5fff]
+[    0.656707] pci 0000:00:1c.0:   bridge window [mem 0xd5700000-0xd66fffff]
+[    0.656715] pci 0000:00:1c.0:   bridge window [mem 0xd0400000-0xd14fffff 64bit pref]
+[    0.656792] pci 0000:03:00.0: [10ec:8172] type 00 class 0x028000
+[    0.656826] pci 0000:03:00.0: reg 0x10: [io  0x2000-0x20ff]
+[    0.656846] pci 0000:03:00.0: reg 0x14: [mem 0xd4600000-0xd4603fff]
+[    0.656996] pci 0000:03:00.0: supports D1 D2
+[    0.656998] pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot
+[    0.657133] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[    0.657215] pci 0000:00:1c.1:   bridge window [io  0x2000-0x3fff]
+[    0.657219] pci 0000:00:1c.1:   bridge window [mem 0xd4600000-0xd56fffff]
+[    0.657226] pci 0000:00:1c.1:   bridge window [mem 0xd1500000-0xd24fffff 64bit pref]
+[    0.657280] pci 0000:00:1c.4: PCI bridge to [bus 07-08]
+[    0.657362] pci 0000:00:1c.4:   bridge window [io  0x1000-0x1fff]
+[    0.657366] pci 0000:00:1c.4:   bridge window [mem 0xd3600000-0xd45fffff]
+[    0.657372] pci 0000:00:1c.4:   bridge window [mem 0xd2500000-0xd34fffff 64bit pref]
+[    0.657395] pci_bus 0000:04: extended config space not accessible
+[    0.657544] pci 0000:00:1e.0: PCI bridge to [bus 04] (subtractive decode)
+[    0.657637] pci 0000:00:1e.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+[    0.657639] pci 0000:00:1e.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+[    0.657641] pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+[    0.657642] pci 0000:00:1e.0:   bridge window [mem 0xc0000000-0xfebfffff window] (subtractive decode)
+[    0.657788] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 *5 7 9 10 11 12)
+[    0.657912] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 7 9 10 *11 12)
+[    0.658062] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 7 9 10 *11 12)
+[    0.658212] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 7 9 10 *11 12)
+[    0.658361] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+[    0.658542] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 7 9 *10 11 12)
+[    0.658690] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 7 9 10 *11 12)
+[    0.658874] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 7 9 10 *11 12)
+[    0.659480] ACPI: EC: interrupt unblocked
+[    0.659571] ACPI: EC: event unblocked
+[    0.659670] ACPI: \_SB_.PCI0.LPC_.EC0_: GPE=0x16, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    0.659783] ACPI: \_SB_.PCI0.LPC_.EC0_: Used as boot DSDT EC to handle transactions and events
+[    0.659940] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[    0.659940] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[    0.660054] pci 0000:00:02.0: vgaarb: bridge control possible
+[    0.660132] vgaarb: loaded
+[    0.660308] SCSI subsystem initialized
+[    0.660406] libata version 3.00 loaded.
+[    0.660449] ACPI: bus type USB registered
+[    0.660562] usbcore: registered new interface driver usbfs
+[    0.660859] usbcore: registered new interface driver hub
+[    0.660931] usbcore: registered new device driver usb
+[    0.660992] pps_core: LinuxPPS API ver. 1 registered
+[    0.661069] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.661190] PTP clock support registered
+[    0.661329] EDAC MC: Ver: 3.0.0
+[    0.661404] Advanced Linux Sound Architecture Driver Initialized.
+[    0.661852] PCI: Using ACPI for IRQ routing
+[    0.664580] PCI: pci_cache_line_size set to 64 bytes
+[    0.664663] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+[    0.664665] e820: reserve RAM buffer [mem 0xb7b6c000-0xb7ffffff]
+[    0.664667] e820: reserve RAM buffer [mem 0xb7c86000-0xb7ffffff]
+[    0.664668] e820: reserve RAM buffer [mem 0xb7ceb000-0xb7ffffff]
+[    0.664669] e820: reserve RAM buffer [mem 0xb7d00000-0xb7ffffff]
+[    0.664875] NetLabel: Initializing
+[    0.664951] NetLabel:  domain hash size = 128
+[    0.665029] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    0.665130] NetLabel:  unlabeled traffic allowed by default
+[    0.665314] HPET: 4 timers in total, 0 timers will be used for per-cpu timer
+[    0.665399] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0
+[    0.665482] hpet0: 4 comparators, 64-bit 14.318180 MHz counter
+[    0.666928] clocksource: Switched to clocksource tsc-early
+[    0.683050] VFS: Disk quotas dquot_6.6.0
+[    0.683168] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.685632] pnp: PnP ACPI init
+[    0.686117] pnp 00:00: disabling [io  0x164e-0x164f] because it overlaps 0000:00:1c.4 BAR 7 [io  0x1000-0x1fff]
+[    0.686300] system 00:00: [io  0x0800-0x080f] has been reserved
+[    0.686382] system 00:00: [io  0x0810-0x0817] has been reserved
+[    0.686461] system 00:00: [io  0x0820-0x0823] has been reserved
+[    0.686540] system 00:00: [io  0x0400-0x047f] has been reserved
+[    0.686622] system 00:00: [io  0x0500-0x057f] has been reserved
+[    0.686704] system 00:00: [mem 0xf8000000-0xfbffffff] has been reserved
+[    0.686784] system 00:00: [mem 0xfed1c000-0xfed1ffff] has been reserved
+[    0.686865] system 00:00: [mem 0xfed10000-0xfed13fff] has been reserved
+[    0.686947] system 00:00: [mem 0xfed18000-0xfed18fff] has been reserved
+[    0.687029] system 00:00: [mem 0xfed19000-0xfed19fff] has been reserved
+[    0.687117] system 00:00: [mem 0xfec00000-0xfec00fff] could not be reserved
+[    0.687197] system 00:00: [mem 0xfed20000-0xfed8ffff] has been reserved
+[    0.687278] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+[    0.687360] system 00:00: [mem 0xff800000-0xffffffff] could not be reserved
+[    0.687449] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.687501] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+[    0.687572] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.687613] pnp 00:03: Plug and Play ACPI device, IDs SYN191b SYN1900 SYN0002 PNP0f13 (active)
+[    0.687737] pnp: PnP ACPI: found 4 devices
+[    0.692377] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.692496] pci 0000:02:00.0: can't claim BAR 6 [mem 0xfffe0000-0xffffffff pref]: no compatible bridge window
+[    0.692655] pci 0000:02:00.0: BAR 6: assigned [mem 0xd5700000-0xd571ffff pref]
+[    0.692769] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    0.692850] pci 0000:00:1c.0:   bridge window [io  0x4000-0x5fff]
+[    0.692935] pci 0000:00:1c.0:   bridge window [mem 0xd5700000-0xd66fffff]
+[    0.693020] pci 0000:00:1c.0:   bridge window [mem 0xd0400000-0xd14fffff 64bit pref]
+[    0.693140] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[    0.693220] pci 0000:00:1c.1:   bridge window [io  0x2000-0x3fff]
+[    0.693306] pci 0000:00:1c.1:   bridge window [mem 0xd4600000-0xd56fffff]
+[    0.693389] pci 0000:00:1c.1:   bridge window [mem 0xd1500000-0xd24fffff 64bit pref]
+[    0.693508] pci 0000:00:1c.4: PCI bridge to [bus 07-08]
+[    0.693589] pci 0000:00:1c.4:   bridge window [io  0x1000-0x1fff]
+[    0.693676] pci 0000:00:1c.4:   bridge window [mem 0xd3600000-0xd45fffff]
+[    0.693760] pci 0000:00:1c.4:   bridge window [mem 0xd2500000-0xd34fffff 64bit pref]
+[    0.693880] pci 0000:00:1e.0: PCI bridge to [bus 04]
+[    0.693970] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.693972] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    0.693974] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.693975] pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfebfffff window]
+[    0.693977] pci_bus 0000:02: resource 0 [io  0x4000-0x5fff]
+[    0.693979] pci_bus 0000:02: resource 1 [mem 0xd5700000-0xd66fffff]
+[    0.693981] pci_bus 0000:02: resource 2 [mem 0xd0400000-0xd14fffff 64bit pref]
+[    0.693982] pci_bus 0000:03: resource 0 [io  0x2000-0x3fff]
+[    0.693984] pci_bus 0000:03: resource 1 [mem 0xd4600000-0xd56fffff]
+[    0.693986] pci_bus 0000:03: resource 2 [mem 0xd1500000-0xd24fffff 64bit pref]
+[    0.693987] pci_bus 0000:07: resource 0 [io  0x1000-0x1fff]
+[    0.693989] pci_bus 0000:07: resource 1 [mem 0xd3600000-0xd45fffff]
+[    0.693990] pci_bus 0000:07: resource 2 [mem 0xd2500000-0xd34fffff 64bit pref]
+[    0.693992] pci_bus 0000:04: resource 4 [io  0x0000-0x0cf7 window]
+[    0.693994] pci_bus 0000:04: resource 5 [io  0x0d00-0xffff window]
+[    0.693996] pci_bus 0000:04: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.693997] pci_bus 0000:04: resource 7 [mem 0xc0000000-0xfebfffff window]
+[    0.694112] NET: Registered protocol family 2
+[    0.694390] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes)
+[    0.694532] TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+[    0.694775] TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+[    0.695057] TCP: Hash tables configured (established 32768 bind 32768)
+[    0.695214] UDP hash table entries: 2048 (order: 4, 65536 bytes)
+[    0.695324] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+[    0.695478] NET: Registered protocol family 1
+[    0.695692] RPC: Registered named UNIX socket transport module.
+[    0.695773] RPC: Registered udp transport module.
+[    0.695851] RPC: Registered tcp transport module.
+[    0.695929] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.696372] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    1.897851] pci 0000:00:1a.7: EHCI: BIOS handoff failed (BIOS bug?) 01010001
+[    1.898188] pci 0000:00:1a.7: quirk_usb_early_handoff+0x0/0x67b took 1172868 usecs
+[    3.098851] pci 0000:00:1d.7: EHCI: BIOS handoff failed (BIOS bug?) 01010001
+[    3.099185] pci 0000:00:1d.7: quirk_usb_early_handoff+0x0/0x67b took 1171565 usecs
+[    3.099326] PCI: CLS 64 bytes, default 64
+[    3.099348] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    3.099431] software IO TLB: mapped [mem 0xb3b6c000-0xb7b6c000] (64MB)
+[    3.099898] Scanning for low memory corruption every 60 seconds
+[    3.100591] Initialise system trusted keyrings
+[    3.100708] workingset: timestamp_bits=56 max_order=20 bucket_order=0
+[    3.104385] NFS: Registering the id_resolver key type
+[    3.105120] Key type id_resolver registered
+[    3.105199] Key type id_legacy registered
+[    3.106821] Key type asymmetric registered
+[    3.106927] Asymmetric key parser 'x509' registered
+[    3.107024] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[    3.107137] io scheduler noop registered
+[    3.107215] io scheduler deadline registered
+[    3.107335] io scheduler cfq registered (default)
+[    3.107415] io scheduler mq-deadline registered
+[    3.107493] io scheduler kyber registered
+[    3.108210] pcieport 0000:00:1c.4: enabling device (0000 -> 0003)
+[    3.108586] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    3.109257] Non-volatile memory driver v1.3
+[    3.109368] Linux agpgart interface v0.103
+[    3.109718] ACPI: AC Adapter [ADP0] (on-line)
+[    3.109891] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+[    3.110014] ACPI: Power Button [PWRB]
+[    3.110141] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input1
+[    3.110271] ACPI: Lid Switch [LID0]
+[    3.110425] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+[    3.110551] ACPI: Power Button [PWRF]
+[    3.110863] Monitor-Mwait will be used to enter C-1 state
+[    3.110872] Monitor-Mwait will be used to enter C-2 state
+[    3.110876] tsc: Marking TSC unstable due to TSC halts in idle
+[    3.111194] clocksource: Switched to clocksource hpet
+[    3.111773] thermal LNXTHERM:00: registered as thermal_zone0
+[    3.111886] ACPI: Thermal Zone [THRM] (48 C)
+[    3.112879] pci 0000:00:00.0: Intel GM45 Chipset
+[    3.112978] battery: ACPI: Battery Slot [BAT0] (battery present)
+[    3.112981] pci 0000:00:00.0: detected gtt size: 2097152K total, 262144K mappable
+[    3.113753] pci 0000:00:00.0: detected 131072K stolen memory
+[    3.114078] [drm] Replacing VGA console driver
+[    3.114710] Console: switching to colour dummy device 80x25
+[    3.115349] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[    3.115354] [drm] Driver supports precise vblank timestamp query.
+[    3.115960] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[    3.137915] [drm] RC6 disabled, disabling runtime PM support
+[    3.138368] [drm] Initialized i915 1.6.0 20180719 for 0000:00:02.0 on minor 0
+[    3.139113] ACPI: Video Device [OVGA] (multi-head: yes  rom: no  post: no)
+[    3.146120] acpi device:03: registered as cooling_device3
+[    3.146196] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input3
+[    3.148902] loop: module loaded
+[    3.149065] ahci 0000:00:1f.2: version 3.0
+[    3.149443] ahci 0000:00:1f.2: AHCI 0001.0200 32 slots 4 ports 3 Gbps 0x33 impl SATA mode
+[    3.149451] ahci 0000:00:1f.2: flags: 64bit ncq sntf led clo pmp pio slum part ccc sxs
+[    3.150365] scsi host0: ahci
+[    3.150604] scsi host1: ahci
+[    3.150792] scsi host2: ahci
+[    3.151006] scsi host3: ahci
+[    3.151206] scsi host4: ahci
+[    3.151403] scsi host5: ahci
+[    3.151532] ata1: SATA max UDMA/133 abar m2048@0xd6704000 port 0xd6704100 irq 24
+[    3.151539] ata2: SATA max UDMA/133 abar m2048@0xd6704000 port 0xd6704180 irq 24
+[    3.151543] ata3: DUMMY
+[    3.151546] ata4: DUMMY
+[    3.151550] ata5: SATA max UDMA/133 abar m2048@0xd6704000 port 0xd6704300 irq 24
+[    3.151556] ata6: SATA max UDMA/133 abar m2048@0xd6704000 port 0xd6704380 irq 24
+[    3.151712] e100: Intel(R) PRO/100 Network Driver, 3.5.24-k2-NAPI
+[    3.151716] e100: Copyright(c) 1999-2006 Intel Corporation
+[    3.151737] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[    3.151741] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[    3.151765] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+[    3.151768] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[    3.151792] sky2: driver version 1.30
+[    3.151896] r8169 0000:02:00.0: can't disable ASPM; OS doesn't have ASPM control
+[    3.153231] libphy: r8169: probed
+[    3.153436] r8169 0000:02:00.0 eth0: RTL8102e, 00:1e:33:ff:0c:3c, XID 24c00000, IRQ 16
+[    3.153589] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    3.153595] ehci-pci: EHCI PCI platform driver
+[    3.153819] ehci-pci 0000:00:1a.7: EHCI Host Controller
+[    3.153955] ehci-pci 0000:00:1a.7: new USB bus registered, assigned bus number 1
+[    3.153977] ehci-pci 0000:00:1a.7: debug port 1
+[    3.157877] ehci-pci 0000:00:1a.7: cache line size of 64 is not supported
+[    3.157895] ehci-pci 0000:00:1a.7: irq 19, io mem 0xd6704c00
+[    3.165955] ehci-pci 0000:00:1a.7: USB 2.0 started, EHCI 1.00
+[    3.166027] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+[    3.166038] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.166046] usb usb1: Product: EHCI Host Controller
+[    3.166052] usb usb1: Manufacturer: Linux 4.19.97-gentoo ehci_hcd
+[    3.166059] usb usb1: SerialNumber: 0000:00:1a.7
+[    3.166221] hub 1-0:1.0: USB hub found
+[    3.166233] hub 1-0:1.0: 4 ports detected
+[    3.166594] ehci-pci 0000:00:1d.7: EHCI Host Controller
+[    3.166671] ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 2
+[    3.166690] ehci-pci 0000:00:1d.7: debug port 1
+[    3.170603] ehci-pci 0000:00:1d.7: cache line size of 64 is not supported
+[    3.170616] ehci-pci 0000:00:1d.7: irq 23, io mem 0xd6704800
+[    3.177956] ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+[    3.178014] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+[    3.178024] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.178033] usb usb2: Product: EHCI Host Controller
+[    3.178039] usb usb2: Manufacturer: Linux 4.19.97-gentoo ehci_hcd
+[    3.178046] usb usb2: SerialNumber: 0000:00:1d.7
+[    3.178201] hub 2-0:1.0: USB hub found
+[    3.178212] hub 2-0:1.0: 8 ports detected
+[    3.178491] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    3.178502] ohci-pci: OHCI PCI platform driver
+[    3.178523] uhci_hcd: USB Universal Host Controller Interface driver
+[    3.178695] uhci_hcd 0000:00:1a.0: UHCI Host Controller
+[    3.178768] uhci_hcd 0000:00:1a.0: new USB bus registered, assigned bus number 3
+[    3.178812] uhci_hcd 0000:00:1a.0: irq 16, io base 0x000060e0
+[    3.178882] usb usb3: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+[    3.178888] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.178892] usb usb3: Product: UHCI Host Controller
+[    3.178896] usb usb3: Manufacturer: Linux 4.19.97-gentoo uhci_hcd
+[    3.178900] usb usb3: SerialNumber: 0000:00:1a.0
+[    3.179038] hub 3-0:1.0: USB hub found
+[    3.179049] hub 3-0:1.0: 2 ports detected
+[    3.179363] uhci_hcd 0000:00:1a.1: UHCI Host Controller
+[    3.179425] uhci_hcd 0000:00:1a.1: new USB bus registered, assigned bus number 4
+[    3.179470] uhci_hcd 0000:00:1a.1: irq 21, io base 0x000060c0
+[    3.179522] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+[    3.179528] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.179532] usb usb4: Product: UHCI Host Controller
+[    3.179536] usb usb4: Manufacturer: Linux 4.19.97-gentoo uhci_hcd
+[    3.179540] usb usb4: SerialNumber: 0000:00:1a.1
+[    3.179659] hub 4-0:1.0: USB hub found
+[    3.179669] hub 4-0:1.0: 2 ports detected
+[    3.179955] uhci_hcd 0000:00:1d.0: UHCI Host Controller
+[    3.180028] uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 5
+[    3.180062] uhci_hcd 0000:00:1d.0: irq 23, io base 0x000060a0
+[    3.180114] usb usb5: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+[    3.180120] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.180125] usb usb5: Product: UHCI Host Controller
+[    3.180128] usb usb5: Manufacturer: Linux 4.19.97-gentoo uhci_hcd
+[    3.180132] usb usb5: SerialNumber: 0000:00:1d.0
+[    3.180250] hub 5-0:1.0: USB hub found
+[    3.180260] hub 5-0:1.0: 2 ports detected
+[    3.180567] uhci_hcd 0000:00:1d.1: UHCI Host Controller
+[    3.180626] uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 6
+[    3.180658] uhci_hcd 0000:00:1d.1: irq 19, io base 0x00006080
+[    3.180763] usb usb6: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+[    3.180770] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.180775] usb usb6: Product: UHCI Host Controller
+[    3.180779] usb usb6: Manufacturer: Linux 4.19.97-gentoo uhci_hcd
+[    3.180783] usb usb6: SerialNumber: 0000:00:1d.1
+[    3.180930] hub 6-0:1.0: USB hub found
+[    3.180941] hub 6-0:1.0: 2 ports detected
+[    3.181248] uhci_hcd 0000:00:1d.2: UHCI Host Controller
+[    3.181305] uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 7
+[    3.181346] uhci_hcd 0000:00:1d.2: irq 16, io base 0x00006060
+[    3.181445] usb usb7: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+[    3.181452] usb usb7: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.181457] usb usb7: Product: UHCI Host Controller
+[    3.181460] usb usb7: Manufacturer: Linux 4.19.97-gentoo uhci_hcd
+[    3.181465] usb usb7: SerialNumber: 0000:00:1d.2
+[    3.181586] hub 7-0:1.0: USB hub found
+[    3.181597] hub 7-0:1.0: 2 ports detected
+[    3.181920] uhci_hcd 0000:00:1d.3: UHCI Host Controller
+[    3.181976] uhci_hcd 0000:00:1d.3: new USB bus registered, assigned bus number 8
+[    3.182026] uhci_hcd 0000:00:1d.3: irq 18, io base 0x00006040
+[    3.182123] usb usb8: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+[    3.182129] usb usb8: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.182134] usb usb8: Product: UHCI Host Controller
+[    3.182138] usb usb8: Manufacturer: Linux 4.19.97-gentoo uhci_hcd
+[    3.182142] usb usb8: SerialNumber: 0000:00:1d.3
+[    3.182261] hub 8-0:1.0: USB hub found
+[    3.182272] hub 8-0:1.0: 2 ports detected
+[    3.182448] usbcore: registered new interface driver usblp
+[    3.182496] usbcore: registered new interface driver usb-storage
+[    3.182541] i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUE] at 0x60,0x64 irq 1,12
+[    3.209451] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    3.209460] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    3.210547] rtc_cmos 00:01: RTC can wake from S4
+[    3.210740] rtc_cmos 00:01: registered as rtc0
+[    3.210766] rtc_cmos 00:01: alarms up to one month, 242 bytes nvram, hpet irqs
+[    3.211015] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+[    3.211252] device-mapper: ioctl: 4.39.0-ioctl (2018-04-03) initialised: dm-devel@redhat.com
+[    3.211281] hidraw: raw HID events driver (C) Jiri Kosina
+[    3.211534] usbcore: registered new interface driver usbhid
+[    3.211538] usbhid: USB HID core driver
+[    3.212614] Initializing XFRM netlink socket
+[    3.212794] NET: Registered protocol family 10
+[    3.213224] Segment Routing with IPv6
+[    3.213380] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    3.213554] NET: Registered protocol family 17
+[    3.213583] Key type dns_resolver registered
+[    3.213732] mce: Using 6 MCE banks
+[    3.213779] microcode: sig=0x1067a, pf=0x80, revision=0xa07
+[    3.213838] microcode: Microcode Update Driver: v2.2.
+[    3.214036] registered taskstats version 1
+[    3.214043] Loading compiled-in X.509 certificates
+[    3.214428]   Magic number: 12:240:484
+[    3.214555] console [netcon0] enabled
+[    3.214558] netconsole: network logging started
+[    3.214933] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    3.215559] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    3.215568] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    3.215608] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    3.215614] cfg80211: failed to load regulatory.db
+[    3.215627] ALSA device list:
+[    3.215631]   No soundcards found.
+[    3.218453] random: fast init done
+[    3.219861] hdaudio hdaudioC0D0: Unable to bind the codec
+[    3.245143] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+[    3.333496] fbcon: inteldrmfb (fb0) is primary device
+[    3.460830] ata2: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    3.461010] ata6: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[    3.461036] ata5: SATA link down (SStatus 0 SControl 300)
+[    3.461873] ata1: SATA link down (SStatus 0 SControl 300)
+[    3.473539] ata6.00: ATAPI: TSSTcorp CDDVDW TS-L633C, TF01, max UDMA/100
+[    3.488126] ata6.00: configured for UDMA/100
+[    3.488858] usb 1-2: new high-speed USB device number 2 using ehci-pci
+[    3.537907] ata2.00: ATA-8: TOSHIBA MK3263GSX, FG020M, max UDMA/100
+[    3.537908] ata2.00: 625142448 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    3.538803] ata2.00: configured for UDMA/100
+[    3.838732] usb 1-2: New USB device found, idVendor=064e, idProduct=d104, bcdDevice= 4.06
+[    3.838735] usb 1-2: New USB device strings: Mfr=3, Product=1, SerialNumber=4
+[    3.838738] usb 1-2: Product: USB 2.0 Camera
+[    3.838741] usb 1-2: Manufacturer: SuYin
+[    3.838743] usb 1-2: SerialNumber: CN031B-M08C-MI011-VS-R04.00.06
+[    4.043064] Console: switching to colour frame buffer device 170x48
+[    4.060551] i915 0000:00:02.0: fb0: inteldrmfb frame buffer device
+[    4.060804] scsi 1:0:0:0: Direct-Access     ATA      TOSHIBA MK3263GS 0M   PQ: 0 ANSI: 5
+[    4.061089] sd 1:0:0:0: [sda] 625142448 512-byte logical blocks: (320 GB/298 GiB)
+[    4.061145] sd 1:0:0:0: Attached scsi generic sg0 type 0
+[    4.061207] sd 1:0:0:0: [sda] Write Protect is off
+[    4.061240] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    4.061448] sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    4.064772] scsi 5:0:0:0: CD-ROM            TSSTcorp CDDVDW TS-L633C  TF01 PQ: 0 ANSI: 5
+[    4.100154] sr 5:0:0:0: [sr0] scsi3-mmc drive: 62x/62x writer dvd-ram cd/rw xa/form2 cdda tray
+[    4.101677] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    4.103387] sr 5:0:0:0: Attached scsi CD-ROM sr0
+[    4.103485] sr 5:0:0:0: Attached scsi generic sg1 type 5
+[    4.193773]  sda: sda1 sda2 sda3
+[    4.196027] sd 1:0:0:0: [sda] Attached SCSI disk
+[    4.227548] psmouse serio1: synaptics: queried max coordinates: x [..5692], y [..4680]
+[    4.343289] psmouse serio1: synaptics: Touchpad model: 1, fw: 7.2, id: 0x1c0b1, caps: 0xd04731/0xa40000/0xa0000/0x0, board id: 0, fw id: 582762
+[    4.344902] psmouse serio1: synaptics: Toshiba Satellite L505 detected, limiting rate to 40pps.
+[    4.418050] input: SynPS/2 Synaptics TouchPad as /devices/platform/i8042/serio1/input/input6
+[    4.424048] md: Waiting for all devices to be available before autodetect
+[    4.425641] md: If you don't use raid, use raid=noautodetect
+[    4.427339] md: Autodetecting RAID arrays.
+[    4.428876] md: autorun ...
+[    4.430389] md: ... autorun DONE.
+[    4.505739] EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null)
+[    4.507311] VFS: Mounted root (ext4 filesystem) readonly on device 8:3.
+[    4.547882] devtmpfs: mounted
+[    4.550645] Freeing unused kernel image memory: 1220K
+[    4.553939] Write protecting the kernel read-only data: 18432k
+[    4.556767] Freeing unused kernel image memory: 2004K
+[    4.559122] Freeing unused kernel image memory: 1148K
+[    4.560836] Run /sbin/init as init process
+[    5.239062] random: crng init done
+[    5.502950] init-early.sh (1279) used greatest stack depth: 13496 bytes left
+[    8.052028] udevd[1698]: starting version 3.2.9
+[    8.319880] udevd[1698]: starting eudev-3.2.9
+[    8.601622] r8169 0000:02:00.0 enp2s0: renamed from eth0
+[    9.489947] EXT4-fs (sda3): re-mounted. Opts: discard
+[    9.815670] Adding 20476924k swap on /dev/sda2.  Priority:-2 extents:1 across:20476924k
+[   10.822564] ip (2297) used greatest stack depth: 12488 bytes left
+[   12.699372] RTL8201CP Ethernet r8169-200:00: attached PHY driver [RTL8201CP Ethernet] (mii_bus:phy_addr=r8169-200:00, irq=IGNORE)
+[   12.779027] IPv6: ADDRCONF(NETDEV_UP): enp2s0: link is not ready
+[   12.780962] r8169 0000:02:00.0 enp2s0: Link is Down
+[   14.523311] r8169 0000:02:00.0 enp2s0: Link is Up - 100Mbps/Full - flow control rx/tx
+[   14.523320] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[  213.114303] python3.6m (2893) used greatest stack depth: 12432 bytes left
+[  213.708802] python3.6m (2936) used greatest stack depth: 12256 bytes left
+[  959.876064] python3.6m (30636) used greatest stack depth: 12200 bytes left
+
+lspcinnkkvvv.txt
+00:00.0 Host bridge [0600]: Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Memory Controller Hub [1179:ff1e]
+        Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ >SERR- <PERR- INTx-
+        Latency: 0
+        Capabilities: [e0] Vendor Specific Information: Len=0a <?>
+
+00:02.0 VGA compatible controller [0300]: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 07) (prog-if 00 [VGA controller])
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Integrated Graphics Controller [1179:ff10]
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin A routed to IRQ 16
+        Region 0: Memory at d0000000 (64-bit, non-prefetchable) [size=4M]
+        Region 2: Memory at c0000000 (64-bit, prefetchable) [size=256M]
+        Region 4: I/O ports at 6110 [size=8]
+        [virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+        Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+                Address: 00000000  Data: 0000
+        Capabilities: [d0] Power Management version 3
+                Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Kernel driver in use: i915
+
+00:02.1 Display controller [0380]: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Integrated Graphics Controller [1179:ff10]
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Region 0: Memory at d3500000 (64-bit, non-prefetchable) [size=1M]
+        Capabilities: [d0] Power Management version 3
+                Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+
+00:1a.0 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #4 [8086:2937] (rev 03) (prog-if 00 [UHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller [1179:ff1e]
+        Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin A routed to IRQ 16
+        Region 4: I/O ports at 60e0 [size=32]
+        Capabilities: [50] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: uhci_hcd
+
+00:1a.1 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #5 [8086:2938] (rev 03) (prog-if 00 [UHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller [1179:ff1e]
+        Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin B routed to IRQ 21
+        Region 4: I/O ports at 60c0 [size=32]
+        Capabilities: [50] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: uhci_hcd
+
+00:1a.7 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #2 [8086:293c] (rev 03) (prog-if 20 [EHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB2 EHCI Controller [1179:ff1e]
+        Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin D routed to IRQ 19
+        Region 0: Memory at d6704c00 (32-bit, non-prefetchable) [size=1K]
+        Capabilities: [50] Power Management version 2
+                Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [58] Debug port: BAR=1 offset=00a0
+        Capabilities: [98] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: ehci-pci
+
+00:1b.0 Audio device [0403]: Intel Corporation 82801I (ICH9 Family) HD Audio Controller [8086:293e] (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) HD Audio Controller [1179:ff1e]
+        Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0, Cache Line Size: 64 bytes
+        Interrupt: pin A routed to IRQ 25
+        Region 0: Memory at d6700000 (64-bit, non-prefetchable) [size=16K]
+        Capabilities: [50] Power Management version 2
+                Flags: PMEClk- DSI- D1- D2- AuxCurrent=55mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [60] MSI: Enable+ Count=1/1 Maskable- 64bit+
+                Address: 00000000fee02004  Data: 4026
+        Capabilities: [70] Express (v1) Root Complex Integrated Endpoint, MSI 00
+                DevCap: MaxPayload 128 bytes, PhantFunc 0
+                        ExtTag- RBE-
+                DevCtl: Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+                        RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop+
+                        MaxPayload 128 bytes, MaxReadReq 128 bytes
+                DevSta: CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+        Capabilities: [100 v1] Virtual Channel
+                Caps:   LPEVC=0 RefClk=100ns PATEntryBits=1
+                Arb:    Fixed- WRR32- WRR64- WRR128-
+                Ctrl:   ArbSelect=Fixed
+                Status: InProgress-
+                VC0:    Caps:   PATOffset=00 MaxTimeSlots=1 RejSnoopTrans-
+                        Arb:    Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
+                        Ctrl:   Enable+ ID=0 ArbSelect=Fixed TC/VC=7f
+                        Status: NegoPending- InProgress-
+                VC1:    Caps:   PATOffset=00 MaxTimeSlots=1 RejSnoopTrans-
+                        Arb:    Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
+                        Ctrl:   Enable+ ID=1 ArbSelect=Fixed TC/VC=80
+                        Status: NegoPending- InProgress-
+        Capabilities: [130 v1] Root Complex Link
+                Desc:   PortNumber=0f ComponentID=02 EltType=Config
+                Link0:  Desc:   TargetPort=00 TargetComponent=02 AssocRCRB- LinkType=MemMapped LinkValid+
+                        Addr:   00000000fed1c000
+        Kernel driver in use: snd_hda_intel
+
+00:1c.0 PCI bridge [0604]: Intel Corporation 82801I (ICH9 Family) PCI Express Port 1 [8086:2940] (rev 03) (prog-if 00 [Normal decode])
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin A routed to IRQ 17
+        Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+        I/O behind bridge: 00004000-00005fff [size=8K]
+        Memory behind bridge: d5700000-d66fffff [size=16M]
+        Prefetchable memory behind bridge: 00000000d0400000-00000000d14fffff [size=17M]
+        Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+        BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+                PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+        Capabilities: [40] Express (v1) Root Port (Slot+), MSI 00
+                DevCap: MaxPayload 128 bytes, PhantFunc 0
+                        ExtTag- RBE+
+                DevCtl: Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+                        RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+                        MaxPayload 128 bytes, MaxReadReq 128 bytes
+                DevSta: CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+                LnkCap: Port #1, Speed 2.5GT/s, Width x1, ASPM L0s L1, Exit Latency L0s <256ns, L1 <4us
+                        ClockPM- Surprise- LLActRep+ BwNot- ASPMOptComp-
+                LnkCtl: ASPM L0s L1 Enabled; RCB 64 bytes Disabled- CommClk+
+                        ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+                LnkSta: Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive+ BWMgmt- ABWMgmt-
+                SltCap: AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+
+                        Slot #0, PowerLimit 6.500W; Interlock- NoCompl-
+                SltCtl: Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+                        Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+                SltSta: Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+                        Changed: MRL- PresDet+ LinkState+
+                RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+                RootCap: CRSVisible-
+                RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+        Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+                Address: 00000000  Data: 0000
+        Capabilities: [90] Subsystem: Toshiba Corporation 82801I (ICH9 Family) PCI Express Port 1 [1179:ff1e]
+        Capabilities: [a0] Power Management version 2
+                Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [100 v1] Virtual Channel
+                Caps:   LPEVC=0 RefClk=100ns PATEntryBits=1
+                Arb:    Fixed+ WRR32- WRR64- WRR128-
+                Ctrl:   ArbSelect=Fixed
+                Status: InProgress-
+                VC0:    Caps:   PATOffset=00 MaxTimeSlots=1 RejSnoopTrans-
+                        Arb:    Fixed+ WRR32- WRR64- WRR128- TWRR128- WRR256-
+                        Ctrl:   Enable+ ID=0 ArbSelect=Fixed TC/VC=01
+                        Status: NegoPending- InProgress-
+        Capabilities: [180 v1] Root Complex Link
+                Desc:   PortNumber=01 ComponentID=02 EltType=Config
+                Link0:  Desc:   TargetPort=00 TargetComponent=02 AssocRCRB- LinkType=MemMapped LinkValid+
+                        Addr:   00000000fed1c000
+        Kernel driver in use: pcieport
+
+00:1c.1 PCI bridge [0604]: Intel Corporation 82801I (ICH9 Family) PCI Express Port 2 [8086:2942] (rev 03) (prog-if 00 [Normal decode])
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin B routed to IRQ 16
+        Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+        I/O behind bridge: 00002000-00003fff [size=8K]
+        Memory behind bridge: d4600000-d56fffff [size=17M]
+        Prefetchable memory behind bridge: 00000000d1500000-00000000d24fffff [size=16M]
+        Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+        BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+                PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+        Capabilities: [40] Express (v1) Root Port (Slot+), MSI 00
+                DevCap: MaxPayload 128 bytes, PhantFunc 0
+                        ExtTag- RBE+
+                DevCtl: Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+                        RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+                        MaxPayload 128 bytes, MaxReadReq 128 bytes
+                DevSta: CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+                LnkCap: Port #2, Speed 2.5GT/s, Width x1, ASPM L0s L1, Exit Latency L0s <256ns, L1 <4us
+                        ClockPM- Surprise- LLActRep+ BwNot- ASPMOptComp-
+                LnkCtl: ASPM L1 Enabled; RCB 64 bytes Disabled- CommClk+
+                        ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+                LnkSta: Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive+ BWMgmt- ABWMgmt-
+                SltCap: AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+
+                        Slot #1, PowerLimit 6.500W; Interlock- NoCompl-
+                SltCtl: Enable: AttnBtn- PwrFlt- MRL- PresDet- CmdCplt- HPIrq- LinkChg-
+                        Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+                SltSta: Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet+ Interlock-
+                        Changed: MRL- PresDet+ LinkState+
+                RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+                RootCap: CRSVisible-
+                RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+        Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+                Address: 00000000  Data: 0000
+        Capabilities: [90] Subsystem: Toshiba Corporation 82801I (ICH9 Family) PCI Express Port 2 [1179:ff1e]
+        Capabilities: [a0] Power Management version 2
+                Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [100 v1] Virtual Channel
+                Caps:   LPEVC=0 RefClk=100ns PATEntryBits=1
+                Arb:    Fixed+ WRR32- WRR64- WRR128-
+                Ctrl:   ArbSelect=Fixed
+                Status: InProgress-
+                VC0:    Caps:   PATOffset=00 MaxTimeSlots=1 RejSnoopTrans-
+                        Arb:    Fixed+ WRR32- WRR64- WRR128- TWRR128- WRR256-
+                        Ctrl:   Enable+ ID=0 ArbSelect=Fixed TC/VC=01
+                        Status: NegoPending- InProgress-
+        Capabilities: [180 v1] Root Complex Link
+                Desc:   PortNumber=02 ComponentID=02 EltType=Config
+                Link0:  Desc:   TargetPort=00 TargetComponent=02 AssocRCRB- LinkType=MemMapped LinkValid+
+                        Addr:   00000000fed1c000
+        Kernel driver in use: pcieport
+
+00:1c.4 PCI bridge [0604]: Intel Corporation 82801I (ICH9 Family) PCI Express Port 5 [8086:2948] (rev 03) (prog-if 00 [Normal decode])
+        Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Interrupt: pin A routed to IRQ 17
+        Bus: primary=00, secondary=07, subordinate=08, sec-latency=0
+        I/O behind bridge: 00001000-00001fff [size=4K]
+        Memory behind bridge: d3600000-d45fffff [size=16M]
+        Prefetchable memory behind bridge: 00000000d2500000-00000000d34fffff [size=16M]
+        Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+        BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+                PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+        Capabilities: [40] Express (v1) Root Port (Slot+), MSI 00
+                DevCap: MaxPayload 128 bytes, PhantFunc 0
+                        ExtTag- RBE+
+                DevCtl: Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+                        RlxdOrd- ExtTag- PhantFunc- AuxPwr- NoSnoop-
+                        MaxPayload 128 bytes, MaxReadReq 128 bytes
+                DevSta: CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr+ TransPend-
+                LnkCap: Port #5, Speed 2.5GT/s, Width x1, ASPM L0s L1, Exit Latency L0s <1us, L1 <4us
+                        ClockPM- Surprise- LLActRep+ BwNot- ASPMOptComp-
+                LnkCtl: ASPM Disabled; RCB 64 bytes Disabled- CommClk-
+                        ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+                LnkSta: Speed 2.5GT/s, Width x0, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+                SltCap: AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+
+                        Slot #4, PowerLimit 6.500W; Interlock- NoCompl-
+                SltCtl: Enable: AttnBtn+ PwrFlt- MRL- PresDet+ CmdCplt- HPIrq- LinkChg-
+                        Control: AttnInd Unknown, PwrInd Unknown, Power- Interlock-
+                SltSta: Status: AttnBtn- PowerFlt- MRL- CmdCplt- PresDet- Interlock-
+                        Changed: MRL- PresDet- LinkState-
+                RootCtl: ErrCorrectable- ErrNon-Fatal- ErrFatal- PMEIntEna- CRSVisible-
+                RootCap: CRSVisible-
+                RootSta: PME ReqID 0000, PMEStatus- PMEPending-
+        Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+                Address: 00000000  Data: 0000
+        Capabilities: [90] Subsystem: Toshiba Corporation 82801I (ICH9 Family) PCI Express Port 5 [1179:ff1e]
+        Capabilities: [a0] Power Management version 2
+                Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [100 v1] Virtual Channel
+                Caps:   LPEVC=0 RefClk=100ns PATEntryBits=1
+                Arb:    Fixed+ WRR32- WRR64- WRR128-
+                Ctrl:   ArbSelect=Fixed
+                Status: InProgress-
+                VC0:    Caps:   PATOffset=00 MaxTimeSlots=1 RejSnoopTrans-
+                        Arb:    Fixed+ WRR32- WRR64- WRR128- TWRR128- WRR256-
+                        Ctrl:   Enable+ ID=0 ArbSelect=Fixed TC/VC=01
+                        Status: NegoPending- InProgress-
+        Capabilities: [180 v1] Root Complex Link
+                Desc:   PortNumber=05 ComponentID=02 EltType=Config
+                Link0:  Desc:   TargetPort=00 TargetComponent=02 AssocRCRB- LinkType=MemMapped LinkValid+
+                        Addr:   00000000fed1c000
+        Kernel driver in use: pcieport
+
+00:1d.0 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #1 [8086:2934] (rev 03) (prog-if 00 [UHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller [1179:ff1e]
+        Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin A routed to IRQ 23
+        Region 4: I/O ports at 60a0 [size=32]
+        Capabilities: [50] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: uhci_hcd
+
+00:1d.1 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #2 [8086:2935] (rev 03) (prog-if 00 [UHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller [1179:ff1e]
+        Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin B routed to IRQ 19
+        Region 4: I/O ports at 6080 [size=32]
+        Capabilities: [50] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: uhci_hcd
+
+00:1d.2 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #3 [8086:2936] (rev 03) (prog-if 00 [UHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller [1179:ff1e]
+        Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin D routed to IRQ 16
+        Region 4: I/O ports at 6060 [size=32]
+        Capabilities: [50] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: uhci_hcd
+
+00:1d.3 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #6 [8086:2939] (rev 03) (prog-if 00 [UHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller [1179:ff1e]
+        Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin C routed to IRQ 18
+        Region 4: I/O ports at 6040 [size=32]
+        Capabilities: [50] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: uhci_hcd
+
+00:1d.7 USB controller [0c03]: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #1 [8086:293a] (rev 03) (prog-if 20 [EHCI])
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB2 EHCI Controller [1179:ff1e]
+        Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin A routed to IRQ 23
+        Region 0: Memory at d6704800 (32-bit, non-prefetchable) [size=1K]
+        Capabilities: [50] Power Management version 2
+                Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot+,D3cold+)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [58] Debug port: BAR=1 offset=00a0
+        Capabilities: [98] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: ehci-pci
+
+00:1e.0 PCI bridge [0604]: Intel Corporation 82801 Mobile PCI Bridge [8086:2448] (rev 93) (prog-if 01 [Subtractive decode])
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Bus: primary=00, secondary=04, subordinate=04, sec-latency=32
+        I/O behind bridge: 0000f000-00000fff [empty]
+        Memory behind bridge: fff00000-000fffff [empty]
+        Prefetchable memory behind bridge: 00000000fff00000-00000000000fffff [empty]
+        Secondary status: 66MHz- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+        BridgeCtl: Parity- SERR- NoISA- VGA- MAbort- >Reset- FastB2B-
+                PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+        Capabilities: [50] Subsystem: Toshiba Corporation 82801 Mobile PCI Bridge [1179:ff1e]
+
+00:1f.0 ISA bridge [0601]: Intel Corporation ICH9M LPC Interface Controller [8086:2919] (rev 03)
+        Subsystem: Toshiba Corporation ICH9M LPC Interface Controller [1179:ff1e]
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+
+00:1f.2 SATA controller [0106]: Intel Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode] [8086:2929] (rev 03) (prog-if 01 [AHCI 1.0])
+        Subsystem: Toshiba Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode] [1179:ff1e]
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+        Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin B routed to IRQ 24
+        Region 0: I/O ports at 6108 [size=8]
+        Region 1: I/O ports at 611c [size=4]
+        Region 2: I/O ports at 6100 [size=8]
+        Region 3: I/O ports at 6118 [size=4]
+        Region 4: I/O ports at 6020 [size=32]
+        Region 5: Memory at d6704000 (32-bit, non-prefetchable) [size=2K]
+        Capabilities: [80] MSI: Enable+ Count=1/16 Maskable- 64bit-
+                Address: fee02004  Data: 4022
+        Capabilities: [70] Power Management version 3
+                Flags: PMEClk- DSI- D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot+,D3cold-)
+                Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [a8] SATA HBA v1.0 BAR4 Offset=00000004
+        Capabilities: [b0] PCI Advanced Features
+                AFCap: TP+ FLR+
+                AFCtrl: FLR-
+                AFStatus: TP-
+        Kernel driver in use: ahci
+
+00:1f.3 SMBus [0c05]: Intel Corporation 82801I (ICH9 Family) SMBus Controller [8086:2930] (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) SMBus Controller [1179:ff1e]
+        Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap- 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Interrupt: pin C routed to IRQ 18
+        Region 0: Memory at d6705000 (64-bit, non-prefetchable) [size=256]
+        Region 4: I/O ports at 6000 [size=32]
+        Kernel driver in use: i801_smbus
+
+02:00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL810xE PCI Express Fast Ethernet controller [10ec:8136] (rev 02)
+        Subsystem: Toshiba Corporation RTL810xE PCI Express Fast Ethernet controller [1179:ff1e]
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0, Cache Line Size: 64 bytes
+        Interrupt: pin A routed to IRQ 16
+        Region 0: I/O ports at 4000 [size=256]
+        Region 2: Memory at d0410000 (64-bit, prefetchable) [size=4K]
+        Region 4: Memory at d0400000 (64-bit, prefetchable) [size=64K]
+        Expansion ROM at d5700000 [disabled] [size=128K]
+        Capabilities: [40] Power Management version 3
+                Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=375mA PME(D0+,D1+,D2+,D3hot+,D3cold+)
+                Status: D0 NoSoftRst+ PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [50] MSI: Enable- Count=1/1 Maskable- 64bit+
+                Address: 0000000000000000  Data: 0000
+        Capabilities: [70] Express (v2) Endpoint, MSI 01
+                DevCap: MaxPayload 256 bytes, PhantFunc 0, Latency L0s <512ns, L1 <64us
+                        ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset- SlotPowerLimit 6.500W
+                DevCtl: Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+                        RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop-
+                        MaxPayload 128 bytes, MaxReadReq 4096 bytes
+                DevSta: CorrErr+ UncorrErr- FatalErr- UnsuppReq+ AuxPwr+ TransPend-
+                LnkCap: Port #0, Speed 2.5GT/s, Width x1, ASPM L0s L1, Exit Latency L0s <512ns, L1 <64us
+                        ClockPM+ Surprise- LLActRep- BwNot- ASPMOptComp-
+                LnkCtl: ASPM L0s L1 Enabled; RCB 64 bytes Disabled- CommClk+
+                        ExtSynch- ClockPM+ AutWidDis- BWInt- AutBWInt-
+                LnkSta: Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+                DevCap2: Completion Timeout: Not Supported, TimeoutDis+, LTR-, OBFF Not Supported
+                         AtomicOpsCap: 32bit- 64bit- 128bitCAS-
+                DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+                         AtomicOpsCtl: ReqEn-
+                LnkCtl2: Target Link Speed: 2.5GT/s, EnterCompliance- SpeedDis-
+                         Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+                         Compliance De-emphasis: -6dB
+                LnkSta2: Current De-emphasis Level: -6dB, EqualizationComplete-, EqualizationPhase1-
+                         EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+        Capabilities: [ac] MSI-X: Enable- Count=2 Masked-
+                Vector table: BAR=4 offset=00000000
+                PBA: BAR=4 offset=00000800
+        Capabilities: [cc] Vital Product Data
+                Not readable
+        Capabilities: [100 v1] Advanced Error Reporting
+                UESta:  DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+                UEMsk:  DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+                UESvrt: DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+                CESta:  RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+                CEMsk:  RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+                AERCap: First Error Pointer: 00, ECRCGenCap+ ECRCGenEn- ECRCChkCap+ ECRCChkEn-
+                        MultHdrRecCap- MultHdrRecEn- TLPPfxPres- HdrLogCap-
+                HeaderLog: 00000000 00000000 00000000 00000000
+        Capabilities: [140 v1] Virtual Channel
+                Caps:   LPEVC=0 RefClk=100ns PATEntryBits=1
+                Arb:    Fixed- WRR32- WRR64- WRR128-
+                Ctrl:   ArbSelect=Fixed
+                Status: InProgress-
+                VC0:    Caps:   PATOffset=00 MaxTimeSlots=1 RejSnoopTrans-
+                        Arb:    Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
+                        Ctrl:   Enable+ ID=0 ArbSelect=Fixed TC/VC=01
+                        Status: NegoPending- InProgress-
+        Capabilities: [160 v1] Device Serial Number 01-00-00-00-00-00-00-00
+        Kernel driver in use: r8169
+
+03:00.0 Network controller [0280]: Realtek Semiconductor Co., Ltd. RTL8191SEvB Wireless LAN Controller [10ec:8172] (rev 10)
+        Subsystem: Realtek Semiconductor Co., Ltd. RTL8191SEvB Wireless LAN Controller [10ec:8152]
+        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+        Latency: 0
+        Interrupt: pin A routed to IRQ 11
+        Region 0: I/O ports at 2000 [size=256]
+        Region 1: Memory at d4600000 (32-bit, non-prefetchable) [size=16K]
+        Capabilities: [40] Power Management version 3
+                Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=375mA PME(D0+,D1+,D2+,D3hot+,D3cold-)
+                Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+        Capabilities: [50] MSI: Enable- Count=1/1 Maskable- 64bit+
+                Address: 0000000000000000  Data: 0000
+        Capabilities: [70] Express (v1) Legacy Endpoint, MSI 00
+                DevCap: MaxPayload 256 bytes, PhantFunc 0, Latency L0s <512ns, L1 <64us
+                        ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset-
+                DevCtl: Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+                        RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop-
+                        MaxPayload 128 bytes, MaxReadReq 512 bytes
+                DevSta: CorrErr+ UncorrErr- FatalErr- UnsuppReq+ AuxPwr- TransPend-
+                LnkCap: Port #0, Speed 2.5GT/s, Width x1, ASPM L0s L1, Exit Latency L0s <512ns, L1 <64us
+                        ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp-
+                LnkCtl: ASPM L1 Enabled; RCB 64 bytes Disabled- CommClk+
+                        ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+                LnkSta: Speed 2.5GT/s, Width x1, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+        Capabilities: [100 v1] Advanced Error Reporting
+                UESta:  DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+                UEMsk:  DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+                UESvrt: DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+                CESta:  RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+                CEMsk:  RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+                AERCap: First Error Pointer: 00, ECRCGenCap+ ECRCGenEn- ECRCChkCap+ ECRCChkEn-
+                        MultHdrRecCap- MultHdrRecEn- TLPPfxPres- HdrLogCap-
+                HeaderLog: 00000000 00000000 00000000 00000000
+        Capabilities: [140 v1] Virtual Channel
+                Caps:   LPEVC=0 RefClk=100ns PATEntryBits=1
+                Arb:    Fixed- WRR32- WRR64- WRR128-
+                Ctrl:   ArbSelect=Fixed
+                Status: InProgress-
+                VC0:    Caps:   PATOffset=00 MaxTimeSlots=1 RejSnoopTrans-
+                        Arb:    Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
+                        Ctrl:   Enable+ ID=0 ArbSelect=Fixed TC/VC=01
+                        Status: NegoPending- InProgress-
+        Capabilities: [160 v1] Device Serial Number 88-55-22-fe-ff-4c-e0-00
+
+lsusbv.txt
+
+Bus 001 Device 002: ID 064e:d104 Suyin Corp.
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass          239 Miscellaneous Device
+  bDeviceSubClass         2
+  bDeviceProtocol         1 Interface Association
+  bMaxPacketSize0        64
+  idVendor           0x064e Suyin Corp.
+  idProduct          0xd104
+  bcdDevice            4.06
+  iManufacturer           3 SuYin
+  iProduct                1 USB 2.0 Camera
+  iSerial                 4 CN031B-M08C-MI011-VS-R04.00.06
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0187
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              500mA
+    Interface Association:
+      bLength                 8
+      bDescriptorType        11
+      bFirstInterface         0
+      bInterfaceCount         2
+      bFunctionClass         14 Video
+      bFunctionSubClass       3 Video Interface Collection
+      bFunctionProtocol       0
+      iFunction               1 USB 2.0 Camera
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      1 Video Control
+      bInterfaceProtocol      0
+      iInterface              1 USB 2.0 Camera
+      VideoControl Interface Descriptor:
+        bLength                13
+        bDescriptorType        36
+        bDescriptorSubtype      1 (HEADER)
+        bcdUVC               1.00
+        wTotalLength       0x0055
+        dwClockFrequency       30.000000MHz
+        bInCollection           1
+        baInterfaceNr( 0)       1
+      VideoControl Interface Descriptor:
+        bLength                18
+        bDescriptorType        36
+        bDescriptorSubtype      2 (INPUT_TERMINAL)
+        bTerminalID             1
+        wTerminalType      0x0201 Camera Sensor
+        bAssocTerminal          0
+        iTerminal               0
+        wObjectiveFocalLengthMin      0
+        wObjectiveFocalLengthMax      0
+        wOcularFocalLength            0
+        bControlSize                  3
+        bmControls           0x00000004
+          Auto-Exposure Priority
+      VideoControl Interface Descriptor:
+        bLength                 9
+        bDescriptorType        36
+        bDescriptorSubtype      3 (OUTPUT_TERMINAL)
+        bTerminalID             3
+        wTerminalType      0x0101 USB Streaming
+        bAssocTerminal          0
+        bSourceID               6
+        iTerminal               0
+      VideoControl Interface Descriptor:
+        bLength                 7
+        bDescriptorType        36
+        bDescriptorSubtype      4 (SELECTOR_UNIT)
+        bUnitID                 4
+        bNrInPins               1
+        baSource( 0)            1
+        iSelector               0
+      VideoControl Interface Descriptor:
+        bLength                11
+        bDescriptorType        36
+        bDescriptorSubtype      5 (PROCESSING_UNIT)
+      Warning: Descriptor too short
+        bUnitID                 5
+        bSourceID               4
+        wMaxMultiplier          0
+        bControlSize            2
+        bmControls     0x0000157f
+          Brightness
+          Contrast
+          Hue
+          Saturation
+          Sharpness
+          Gamma
+          White Balance Temperature
+          Backlight Compensation
+          Power Line Frequency
+          White Balance Temperature, Auto
+        iProcessing             0
+        bmVideoStandards     0x1b
+          None
+          NTSC - 525/60
+          SECAM - 625/50
+          NTSC - 625/50
+      VideoControl Interface Descriptor:
+        bLength                27
+        bDescriptorType        36
+        bDescriptorSubtype      6 (EXTENSION_UNIT)
+        bUnitID                 6
+        guidExtensionCode         {a7974c56-a77e-4b90-8cbf-1c71ec303000}
+        bNumControl            16
+        bNrPins                 1
+        baSourceID( 0)          5
+        bControlSize            2
+        bmControls( 0)       0xff
+        bmControls( 1)       0xff
+        iExtension              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              15
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           0
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0
+      iInterface              0
+      VideoStreaming Interface Descriptor:
+        bLength                            14
+        bDescriptorType                    36
+        bDescriptorSubtype                  1 (INPUT_HEADER)
+        bNumFormats                         1
+        wTotalLength                   0x00d3
+        bEndPointAddress                  129
+        bmInfo                              0
+        bTerminalLink                       3
+        bStillCaptureMethod                 0
+        bTriggerSupport                     0
+        bTriggerUsage                       0
+        bControlSize                        1
+        bmaControls( 0)                     0
+      VideoStreaming Interface Descriptor:
+        bLength                            27
+        bDescriptorType                    36
+        bDescriptorSubtype                  4 (FORMAT_UNCOMPRESSED)
+        bFormatIndex                        1
+        bNumFrameDescriptors                5
+        guidFormat                            {32595559-0000-0010-8000-00aa00389b71}
+        bBitsPerPixel                      16
+        bDefaultFrameIndex                  1
+        bAspectRatioX                       0
+        bAspectRatioY                       0
+        bmInterlaceFlags                 0x00
+          Interlaced stream or variable: No
+          Fields per frame: 2 fields
+          Field 1 first: No
+          Field pattern: Field 1 only
+        bCopyProtect                        0
+      VideoStreaming Interface Descriptor:
+        bLength                            34
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         1
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            640
+        wHeight                           480
+        dwMinBitRate                  9216000
+        dwMaxBitRate                 18432000
+        dwMaxVideoFrameBufferSize      614400
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                  2
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            666666
+      VideoStreaming Interface Descriptor:
+        bLength                            34
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         2
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            320
+        wHeight                           240
+        dwMinBitRate                  2304000
+        dwMaxBitRate                  4608000
+        dwMaxVideoFrameBufferSize      153600
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                  2
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            666666
+      VideoStreaming Interface Descriptor:
+        bLength                            34
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         3
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            160
+        wHeight                           120
+        dwMinBitRate                   576000
+        dwMaxBitRate                  1152000
+        dwMaxVideoFrameBufferSize       38400
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                  2
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            666666
+      VideoStreaming Interface Descriptor:
+        bLength                            34
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         4
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            352
+        wHeight                           288
+        dwMinBitRate                  3041280
+        dwMaxBitRate                  6082560
+        dwMaxVideoFrameBufferSize      202752
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                  2
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            666666
+      VideoStreaming Interface Descriptor:
+        bLength                            34
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         5
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            176
+        wHeight                           144
+        dwMinBitRate                   760320
+        dwMaxBitRate                  1520640
+        dwMaxVideoFrameBufferSize       50688
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                  2
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            666666
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       1
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x1400  3x 1024 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       2
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x1400  3x 1024 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       3
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x1400  3x 1024 bytes
+        bInterval               1
+Device Qualifier (for other device speed):
+  bLength                10
+  bDescriptorType         6
+  bcdUSB               2.00
+  bDeviceClass          239 Miscellaneous Device
+  bDeviceSubClass         2
+  bDeviceProtocol         1 Interface Association
+  bMaxPacketSize0        64
+  bNumConfigurations      1
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 007 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1d.2
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo ehci_hcd
+  iProduct                2 EHCI Host Controller
+  iSerial                 1 0000:00:1d.7
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength              11
+  bDescriptorType      41
+  nNbrPorts             8
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00 0x00
+  PortPwrCtrlMask    0xff 0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+   Port 3: 0000.0100 power
+   Port 4: 0000.0100 power
+   Port 5: 0000.0100 power
+   Port 6: 0000.0100 power
+   Port 7: 0000.0100 power
+   Port 8: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1a.1
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 006 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1d.1
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 008 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1d.3
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo ehci_hcd
+  iProduct                2 EHCI Host Controller
+  iSerial                 1 0000:00:1a.7
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             4
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0503 highspeed power enable connect
+   Port 3: 0000.0100 power
+   Port 4: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1a.0
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            4.19
+  iManufacturer           3 Linux 4.19.97-gentoo uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1d.0
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+lshw.txt
+bozgentoo
+    description: Notebook
+    product: Satellite L505 (Montevina_Fab)
+    vendor: TOSHIBA
+    version: PSLU0U-02M002
+    serial: X9260693Q
+    width: 4294967295 bits
+    capabilities: smbios-2.4 dmi-2.4 smp vsyscall32
+    configuration: boot=normal chassis=notebook family=Intel_Mobile sku=Montevina_Fab uuid=5BE772A0-C013-11DE-BBA9-001E33FF0C3C
+  *-core
+       description: Motherboard
+       product: Portable PC
+       vendor: TOSHIBA
+       physical id: 0
+       version: Base Board Version
+       serial: Base Board Serial Number
+       slot: Base Board Chassis Location
+     *-firmware
+          description: BIOS
+          vendor: INSYDE
+          physical id: 0
+          version: 1.50
+          date: 12/15/2009
+          size: 1MiB
+          capabilities: pci upgrade shadowing cdboot bootselect socketedrom edd int13floppynec int13floppytoshiba int13floppy360 int13floppy1200 int13floppy720 int13floppy2880 int9keyboard int10video acpi usb
+     *-memory
+          description: System Memory
+          physical id: 13
+          slot: System board or motherboard
+          size: 4GiB
+        *-bank:0
+             description: SODIMM DDR3 Synchronous 800 MHz (1.2 ns)
+             product: M471B5673EH1-CF8
+             vendor: Samsung
+             physical id: 0
+             serial: 6349BE3F
+             slot: DIMM0
+             size: 2GiB
+             width: 64 bits
+             clock: 800MHz (1.2ns)
+        *-bank:1
+             description: SODIMM DDR3 Synchronous 800 MHz (1.2 ns)
+             product: M471B5673EH1-CF8
+             vendor: Samsung
+             physical id: 1
+             serial: 6349BE5D
+             slot: DIMM2
+             size: 2GiB
+             width: 64 bits
+             clock: 800MHz (1.2ns)
+     *-cpu
+          description: CPU
+          product: Intel(R) Core(TM)2 Duo CPU     T6500  @ 2.10GHz
+          vendor: Intel Corp.
+          physical id: 1e
+          bus info: cpu@0
+          version: Intel(R) Core(TM)2 Duo CPU     T6500  @ 2.10GHz
+          slot: CPU
+          size: 2094MHz
+          capacity: 2100MHz
+          width: 64 bits
+          clock: 800MHz
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx x86-64 constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm pti dtherm cpufreq
+        *-cache:0
+             description: L2 cache
+             physical id: 1f
+             slot: Unknown
+             size: 2MiB
+             capacity: 2MiB
+             capabilities: synchronous internal write-back unified
+             configuration: level=2
+        *-cache:1
+             description: L1 cache
+             physical id: 21
+             slot: Unknown
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: synchronous internal write-back data
+             configuration: level=1
+     *-cache
+          description: L1 cache
+          physical id: 20
+          slot: Unknown
+          size: 32KiB
+          capacity: 32KiB
+          capabilities: synchronous internal write-back instruction
+          configuration: level=1
+     *-pci
+          description: Host bridge
+          product: Mobile 4 Series Chipset Memory Controller Hub
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 07
+          width: 32 bits
+          clock: 33MHz
+        *-display:0
+             description: VGA compatible controller
+             product: Mobile 4 Series Chipset Integrated Graphics Controller
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 07
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:16 memory:d0000000-d03fffff memory:c0000000-cfffffff ioport:6110(size=8) memory:c0000-dffff
+        *-display:1 UNCLAIMED
+             description: Display controller
+             product: Mobile 4 Series Chipset Integrated Graphics Controller
+             vendor: Intel Corporation
+             physical id: 2.1
+             bus info: pci@0000:00:02.1
+             version: 07
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: latency=0
+             resources: memory:d3500000-d35fffff
+        *-usb:0
+             description: USB controller
+             product: 82801I (ICH9 Family) USB UHCI Controller #4
+             vendor: Intel Corporation
+             physical id: 1a
+             bus info: pci@0000:00:1a.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:16 ioport:60e0(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.19.97-gentoo uhci_hcd
+                physical id: 1
+                bus info: usb@3
+                logical name: usb3
+                version: 4.19
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-usb:1
+             description: USB controller
+             product: 82801I (ICH9 Family) USB UHCI Controller #5
+             vendor: Intel Corporation
+             physical id: 1a.1
+             bus info: pci@0000:00:1a.1
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:21 ioport:60c0(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.19.97-gentoo uhci_hcd
+                physical id: 1
+                bus info: usb@4
+                logical name: usb4
+                version: 4.19
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-usb:2
+             description: USB controller
+             product: 82801I (ICH9 Family) USB2 EHCI Controller #2
+             vendor: Intel Corporation
+             physical id: 1a.7
+             bus info: pci@0000:00:1a.7
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:19 memory:d6704c00-d6704fff
+           *-usbhost
+                product: EHCI Host Controller
+                vendor: Linux 4.19.97-gentoo ehci_hcd
+                physical id: 1
+                bus info: usb@1
+                logical name: usb1
+                version: 4.19
+                capabilities: usb-2.00
+                configuration: driver=hub slots=4 speed=480Mbit/s
+              *-usb UNCLAIMED
+                   description: Video
+                   product: USB 2.0 Camera
+                   vendor: SuYin
+                   physical id: 2
+                   bus info: usb@1:2
+                   version: 4.06
+                   serial: CN031B-M08C-MI011-VS-R04.00.06
+                   capabilities: usb-2.00
+                   configuration: maxpower=500mA speed=480Mbit/s
+        *-multimedia
+             description: Audio device
+             product: 82801I (ICH9 Family) HD Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:25 memory:d6700000-d6703fff
+        *-pci:0
+             description: PCI bridge
+             product: 82801I (ICH9 Family) PCI Express Port 1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:17 ioport:4000(size=8192) memory:d5700000-d66fffff ioport:d0400000(size=17825792)
+           *-network
+                description: Ethernet interface
+                product: RTL810xE PCI Express Fast Ethernet controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: enp2s0
+                version: 02
+                serial: 00:1e:33:ff:0c:3c
+                size: 100Mbit/s
+                capacity: 100Mbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress msix vpd bus_master cap_list rom ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=r8169 duplex=full ip=10.0.0.8 latency=0 link=yes multicast=yes port=MII speed=100Mbit/s
+                resources: irq:16 ioport:4000(size=256) memory:d0410000-d0410fff memory:d0400000-d040ffff memory:d5700000-d571ffff
+        *-pci:1
+             description: PCI bridge
+             product: 82801I (ICH9 Family) PCI Express Port 2
+             vendor: Intel Corporation
+             physical id: 1c.1
+             bus info: pci@0000:00:1c.1
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:16 ioport:2000(size=8192) memory:d4600000-d56fffff ioport:d1500000(size=16777216)
+           *-network UNCLAIMED
+                description: Network controller
+                product: RTL8191SEvB Wireless LAN Controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                version: 10
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: latency=0
+                resources: ioport:2000(size=256) memory:d4600000-d4603fff
+        *-pci:2
+             description: PCI bridge
+             product: 82801I (ICH9 Family) PCI Express Port 5
+             vendor: Intel Corporation
+             physical id: 1c.4
+             bus info: pci@0000:00:1c.4
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode cap_list
+             configuration: driver=pcieport
+             resources: irq:17 ioport:1000(size=4096) memory:d3600000-d45fffff ioport:d2500000(size=16777216)
+        *-usb:3
+             description: USB controller
+             product: 82801I (ICH9 Family) USB UHCI Controller #1
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:23 ioport:60a0(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.19.97-gentoo uhci_hcd
+                physical id: 1
+                bus info: usb@5
+                logical name: usb5
+                version: 4.19
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-usb:4
+             description: USB controller
+             product: 82801I (ICH9 Family) USB UHCI Controller #2
+             vendor: Intel Corporation
+             physical id: 1d.1
+             bus info: pci@0000:00:1d.1
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:19 ioport:6080(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.19.97-gentoo uhci_hcd
+                physical id: 1
+                bus info: usb@6
+                logical name: usb6
+                version: 4.19
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-usb:5
+             description: USB controller
+             product: 82801I (ICH9 Family) USB UHCI Controller #3
+             vendor: Intel Corporation
+             physical id: 1d.2
+             bus info: pci@0000:00:1d.2
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:16 ioport:6060(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.19.97-gentoo uhci_hcd
+                physical id: 1
+                bus info: usb@7
+                logical name: usb7
+                version: 4.19
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-usb:6
+             description: USB controller
+             product: 82801I (ICH9 Family) USB UHCI Controller #6
+             vendor: Intel Corporation
+             physical id: 1d.3
+             bus info: pci@0000:00:1d.3
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:18 ioport:6040(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.19.97-gentoo uhci_hcd
+                physical id: 1
+                bus info: usb@8
+                logical name: usb8
+                version: 4.19
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+        *-usb:7
+             description: USB controller
+             product: 82801I (ICH9 Family) USB2 EHCI Controller #1
+             vendor: Intel Corporation
+             physical id: 1d.7
+             bus info: pci@0000:00:1d.7
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:23 memory:d6704800-d6704bff
+           *-usbhost
+                product: EHCI Host Controller
+                vendor: Linux 4.19.97-gentoo ehci_hcd
+                physical id: 1
+                bus info: usb@2
+                logical name: usb2
+                version: 4.19
+                capabilities: usb-2.00
+                configuration: driver=hub slots=8 speed=480Mbit/s
+        *-pci:3
+             description: PCI bridge
+             product: 82801 Mobile PCI Bridge
+             vendor: Intel Corporation
+             physical id: 1e
+             bus info: pci@0000:00:1e.0
+             version: 93
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci subtractive_decode bus_master cap_list
+        *-isa
+             description: ISA bridge
+             product: ICH9M LPC Interface Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: latency=0
+        *-storage
+             description: SATA controller
+             product: 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             version: 03
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage msi pm ahci_1.0 bus_master cap_list
+             configuration: driver=ahci latency=0
+             resources: irq:24 ioport:6108(size=8) ioport:611c(size=4) ioport:6100(size=8) ioport:6118(size=4) ioport:6020(size=32) memory:d6704000-d67047ff
+        *-serial
+             description: SMBus
+             product: 82801I (ICH9 Family) SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             configuration: driver=i801_smbus latency=0
+             resources: irq:18 memory:d6705000-d67050ff ioport:6000(size=32)
+     *-scsi:0
+          physical id: 1
+          logical name: scsi1
+          capabilities: emulated
+        *-disk
+             description: ATA Disk
+             product: TOSHIBA MK3263GS
+             vendor: Toshiba
+             physical id: 0.0.0
+             bus info: scsi@1:0.0.0
+             logical name: /dev/sda
+             version: 0M
+             serial: 99DQT9EWT
+             size: 298GiB (320GB)
+             capabilities: gpt-1.00 partitioned partitioned:gpt
+             configuration: ansiversion=5 guid=58602bc0-b0b4-4269-acb7-9ae6f716a9b0 logicalsectorsize=512 sectorsize=512
+           *-volume:0
+                description: BIOS Boot partition
+                vendor: EFI
+                physical id: 1
+                bus info: scsi@1:0.0.0,1
+                logical name: /dev/sda1
+                serial: 3cb2cdf9-3737-4e10-8f99-feb339f1d652
+                capacity: 2047KiB
+                capabilities: nofs
+                configuration: name=grub
+           *-volume:1
+                description: Linux swap volume
+                physical id: 2
+                bus info: scsi@1:0.0.0,2
+                logical name: /dev/sda2
+                version: 1
+                serial: 4219ae29-9f3b-4ea5-baae-f354ad2aeda6
+                size: 19GiB
+                capacity: 19GiB
+                capabilities: swap initialized
+                configuration: filesystem=swap name=swap pagesize=4095
+           *-volume:2
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 3
+                bus info: scsi@1:0.0.0,3
+                logical name: /dev/sda3
+                logical name: /
+                version: 1.0
+                serial: 2e70f2e4-efa5-41a3-8769-d779aca4c51d
+                size: 278GiB
+                capabilities: boot journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+                configuration: created=2020-03-26 07:20:20 filesystem=ext4 lastmountpoint=/ modified=2020-03-26 13:26:52 mount.fstype=ext4 mount.options=rw,noatime,discard mounted=2020-03-26 13:27:27 name=rootfs state=mounted
+     *-scsi:1
+          physical id: 2
+          logical name: scsi5
+          capabilities: emulated
+        *-cdrom
+             description: DVD-RAM writer
+             product: CDDVDW TS-L633C
+             vendor: TSSTcorp
+             physical id: 0.0.0
+             bus info: scsi@5:0.0.0
+             logical name: /dev/cdrom
+             logical name: /dev/sr0
+             version: TF01
+             capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuration: ansiversion=5 status=ready
+           *-medium
+                physical id: 0
+                logical name: /dev/cdrom
+  *-power UNCLAIMED
+       description: OEM_Define1
+       product: OEM_Define4
+       vendor: OEM_Define2
+       physical id: 1
+       version: OEM_Define5
+       serial: OEM_Define2
+       capacity: 75mWh

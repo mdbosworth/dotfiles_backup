@@ -1,0 +1,9 @@
+
+#Xorg
+x11-wm/fluxbox truetype vim-syntax slit systray toolbar nls -xinerama -bidi -imlib
+
+#systemd
+#sys-apps/systemd -sysv-utils
+
+#VIM
+app-editors/vim	X python terminal 

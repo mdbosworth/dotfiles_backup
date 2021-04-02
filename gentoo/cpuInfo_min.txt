@@ -1,0 +1,39 @@
+Host bridge: Intel Corporation Mobile 4 Series Chipset Memory Controller Hub (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Memory Controller Hub
+VGA compatible controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Integrated Graphics Controller
+        Kernel driver in use: i915
+Display controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+        Subsystem: Toshiba Corporation Mobile 4 Series Chipset Integrated Graphics Controller
+USB controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #4 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB UHCI Controller
+        Kernel driver in use: uhci_hcd
+USB controller: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #2 (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) USB2 EHCI Controller
+        Kernel driver in use: ehci-pci
+Audio device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) HD Audio Controller
+        Kernel driver in use: snd_hda_intel
+PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 1 (rev 03)
+        Kernel driver in use: pcieport
+PCI bridge: Intel Corporation 82801 Mobile PCI Bridge (rev 93)
+ISA bridge: Intel Corporation ICH9M LPC Interface Controller (rev 03)
+        Subsystem: Toshiba Corporation ICH9M LPC Interface Controller
+SATA controller: Intel Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode] (rev 03)
+        Subsystem: Toshiba Corporation 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]
+        Kernel driver in use: ahci
+SMBus: Intel Corporation 82801I (ICH9 Family) SMBus Controller (rev 03)
+        Subsystem: Toshiba Corporation 82801I (ICH9 Family) SMBus Controller
+        Kernel driver in use: i801_smbus
+Ethernet controller: Realtek Semiconductor Co., Ltd. RTL810xE PCI Express Fast Ethernet controller (rev 02)
+        Subsystem: Toshiba Corporation RTL810xE PCI Express Fast Ethernet controller
+        Kernel driver in use: r8169
+Network controller: Realtek Semiconductor Co., Ltd. RTL8191SEvB Wireless LAN Controller (rev 10)
+        Subsystem: Realtek Semiconductor Co., Ltd. RTL8191SEvB Wireless LAN Controller
+
+
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm pti dtherm
+
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+
+

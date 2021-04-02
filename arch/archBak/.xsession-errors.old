@@ -1,0 +1,35 @@
+spectrwm: Welcome to spectrwm V3.1.0 Build: 3.1.0
+spectrwm: Unable to load charset(s):
+spectrwm: ISO8859-5
+spectrwm: KOI8-R
+spectrwm: ISO8859-7
+spectrwm: JISX0208.1983-0
+spectrwm: KSC5601.1987-0
+spectrwm: GB2312.1980-0
+spectrwm: JISX0201.1976-0
+spectrwm: Glyphs from those sets won't be drawn.
+Spawning container firefox on /opt/machines/Firefox.
+Press ^] three times within 1s to kill container.
+urxvt: perl extension 'solarized' not found in perl library search path
+urxvt: perl extension 'solarized' not found in perl library search path
+spectrwm: Welcome to spectrwm V3.1.0 Build: 3.1.0
+spectrwm: Unable to load charset(s):
+spectrwm: ISO8859-5
+spectrwm: KOI8-R
+spectrwm: ISO8859-7
+spectrwm: JISX0208.1983-0
+spectrwm: KSC5601.1987-0
+spectrwm: GB2312.1980-0
+spectrwm: JISX0201.1976-0
+spectrwm: Glyphs from those sets won't be drawn.
+urxvt: X connection to ':0' broken, unable to recover, exiting.
+Gdk-Message: 01:10:30.087: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 01:10:30.087: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+urxvt: X connection to ':0' broken, unable to recover, exiting.
+Gdk-Message: 01:10:30.095: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 01:10:30.096: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Container firefox failed with error code 15.
